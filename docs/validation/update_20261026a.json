@@ -1,0 +1,171 @@
+{
+  "status": "passed",
+  "revision": "20261026a",
+  "completed_utc": "2026-10-26T15:48:33.740449+00:00",
+  "source_comparison": {
+    "archives": [
+      {
+        "archive_name": "GitHub仓库_20261026.zip",
+        "bytes": 63441127,
+        "sha256": "0c4f295b3190f682193a89f87f77cadbf460167fe0ce30ad9b24fe5381983202",
+        "modified_utc": "2026-10-26T15:31:12.115610+00:00",
+        "top": [
+          "GitHub仓库"
+        ],
+        "entries": 151
+      },
+      {
+        "archive_name": "投稿文件_20261026a.zip",
+        "bytes": 37799617,
+        "sha256": "5517aa87c1e228bcd613317d37c61c907835804f7461a15c4a4038379e83c422",
+        "modified_utc": "2026-10-26T15:30:59.711464+00:00",
+        "top": [
+          "投稿文件_20261026"
+        ],
+        "entries": 116
+      }
+    ],
+    "changed_author_files": [
+      "README.md",
+      "figures/scripts/fig6.py",
+      "figures/scripts/figS4_atlas.py",
+      "validation/full_build_check.json"
+    ],
+    "added": [],
+    "removed": [],
+    "identical_files": 126,
+    "source_root": "decoded/GitHub仓库"
+  },
+  "author_inputs_identical": 97,
+  "author_inputs_packaging_only_changes": [
+    "data/phenotype/block_observations.csv",
+    "results/S5/shared_informative_snps.vcf.gz",
+    "results/S5/support4_shared_informative_snps.vcf.gz"
+  ],
+  "upstream_code_and_inputs_unchanged": true,
+  "unchanged_added_source_files": 122,
+  "prior_statistical_validation_applies_by_unchanged_hashes": true,
+  "statistical_refits_this_update": false,
+  "figure6_panels": 6,
+  "atlas_pages": 3,
+  "atlas_gene_panels": 27,
+  "full_build_passed": true,
+  "isolated_full_build_passed": true,
+  "table_cells": 114155,
+  "numeric_cells": 72094,
+  "boolean_cells": 859,
+  "richtext_cells": 649,
+  "text_cells_revised": 33,
+  "postprocessing_byte_idempotent": true,
+  "full_resolution_PNGs_pixel_identical": 14,
+  "PDFs_pixel_identical_at_72dpi": 12,
+  "new_manuscript_claims": {
+    "status": "passed",
+    "scope": "New Figure 6 and Results statements checked against S8 group Ct means, Games-Howell contrasts and paired RNA-seq effects; no statistical refit.",
+    "PAL_WRKY33_effects": [
+      {
+        "gene_id": "CsaV3_4G002320",
+        "stage": "fruiting_leaf",
+        "hybrid": "MD",
+        "qPCR_D": -3.201666666666668,
+        "RNAseq_D": -2.37855519445458
+      },
+      {
+        "gene_id": "CsaV3_4G002320",
+        "stage": "fruiting_leaf",
+        "hybrid": "MS",
+        "qPCR_D": -1.009999999999999,
+        "RNAseq_D": -4.280037334625
+      },
+      {
+        "gene_id": "CsaV3_3G033350",
+        "stage": "fruiting_leaf",
+        "hybrid": "MD",
+        "qPCR_D": -2.3883333333333336,
+        "RNAseq_D": -2.03371793253153
+      },
+      {
+        "gene_id": "CsaV3_3G033350",
+        "stage": "fruiting_leaf",
+        "hybrid": "MS",
+        "qPCR_D": -0.30666666666666753,
+        "RNAseq_D": -2.40144895081585
+      }
+    ],
+    "MD_below_both_parents": [
+      {
+        "gene_id": "CsaV3_4G002320",
+        "higher": "C",
+        "lower": "MD",
+        "p_Games_Howell": 0.0023312389705957
+      },
+      {
+        "gene_id": "CsaV3_4G002320",
+        "higher": "D",
+        "lower": "MD",
+        "p_Games_Howell": 0.0007396734002036
+      },
+      {
+        "gene_id": "CsaV3_3G033350",
+        "higher": "C",
+        "lower": "MD",
+        "p_Games_Howell": 1.1375046070627448e-06
+      },
+      {
+        "gene_id": "CsaV3_3G033350",
+        "higher": "D",
+        "lower": "MD",
+        "p_Games_Howell": 0.0019474726471208
+      }
+    ],
+    "MS_between_parents": true,
+    "four_PAL_qPCR_D_ranges": {
+      "MD": [
+        -3.46,
+        -2.05
+      ],
+      "MS": [
+        -1.01,
+        0.12
+      ]
+    },
+    "fruit_9d_directions": [
+      {
+        "gene_id": "CsaV3_3G042150",
+        "stage": "fruit_9d",
+        "higher": "MD",
+        "lower": "C"
+      },
+      {
+        "gene_id": "CsaV3_3G042150",
+        "stage": "fruit_9d",
+        "higher": "C",
+        "lower": "MS"
+      },
+      {
+        "gene_id": "CsaV3_3G042150",
+        "stage": "fruit_9d",
+        "higher": "MS",
+        "lower": "S"
+      },
+      {
+        "gene_id": "CsaV3_6G039530",
+        "stage": "fruit_9d",
+        "higher": "MS",
+        "lower": "C"
+      },
+      {
+        "gene_id": "CsaV3_6G039530",
+        "stage": "fruit_9d",
+        "higher": "S",
+        "lower": "MS"
+      }
+    ]
+  },
+  "figure_environment": {
+    "python": "3.12.12",
+    "R": "4.3.1",
+    "direct_pins": "requirements-figures.txt"
+  },
+  "remote_push_performed": false
+}

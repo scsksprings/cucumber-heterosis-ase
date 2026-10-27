@@ -1,0 +1,6 @@
+样品数字编码	缩写	样品类型	分析阶段名称
+1–3	SL	苗期叶	seedling_leaf
+4–6	FL	成瓜期叶	fruiting_leaf
+7–9	F3	开花后3 d果实	fruit_3d
+10–12	F6	开花后6 d果实	fruit_6d
+16–18	F9	开花后9 d果实	fruit_9d

@@ -1,0 +1,404 @@
+{
+  "status": "passed",
+  "tables": [
+    {
+      "file": "S1.xlsx",
+      "cells": 776,
+      "numbers": 450,
+      "booleans": 0,
+      "richtext_cells": 0,
+      "passed": true
+    },
+    {
+      "file": "S2.xlsx",
+      "cells": 1966,
+      "numbers": 1243,
+      "booleans": 0,
+      "richtext_cells": 13,
+      "passed": true
+    },
+    {
+      "file": "S3.xlsx",
+      "cells": 66068,
+      "numbers": 43583,
+      "booleans": 0,
+      "richtext_cells": 46,
+      "passed": true
+    },
+    {
+      "file": "S4.xlsx",
+      "cells": 5952,
+      "numbers": 3374,
+      "booleans": 0,
+      "richtext_cells": 8,
+      "passed": true
+    },
+    {
+      "file": "S5.xlsx",
+      "cells": 81,
+      "numbers": 44,
+      "booleans": 0,
+      "richtext_cells": 0,
+      "passed": true
+    },
+    {
+      "file": "S6.xlsx",
+      "cells": 1538,
+      "numbers": 744,
+      "booleans": 35,
+      "richtext_cells": 15,
+      "passed": true
+    },
+    {
+      "file": "S7.xlsx",
+      "cells": 824,
+      "numbers": 477,
+      "booleans": 14,
+      "richtext_cells": 10,
+      "passed": true
+    },
+    {
+      "file": "S8.xlsx",
+      "cells": 36950,
+      "numbers": 22179,
+      "booleans": 810,
+      "richtext_cells": 557,
+      "passed": true
+    }
+  ],
+  "table_cells": 114155,
+  "numeric_cells": 72094,
+  "boolean_cells": 859,
+  "richtext_cells": 649,
+  "pdf_raster_checks": [
+    {
+      "file": "Fig1_yield_components.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig2_expression_patterns.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig3_leaf_comparison.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig4_SNP_selection_ASE.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig5_candidate_allele_fractions.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig6_qPCR_validation.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS1_cumulative_harvest.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS2_core_ASE_shared_effects.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS3_model_calibration.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS4_qPCR_27_gene_atlas.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        },
+        {
+          "page": 2,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        },
+        {
+          "page": 3,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS5_product_decomposition.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS6_fruit_stage_enrichment.pdf",
+      "pages": [
+        {
+          "page": 1,
+          "same_dimensions": true,
+          "pixel_identical": true,
+          "mean_absolute_channel_difference": 0.0
+        }
+      ],
+      "pixel_identical": true
+    }
+  ],
+  "all_compared_PDFs_pixel_identical": true,
+  "png_checks": [
+    {
+      "file": "Fig1_yield_components.png",
+      "submitted_dimensions": [
+        3504,
+        4334
+      ],
+      "rebuilt_dimensions": [
+        3504,
+        4334
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig2_expression_patterns.png",
+      "submitted_dimensions": [
+        3199,
+        2827
+      ],
+      "rebuilt_dimensions": [
+        3199,
+        2827
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig3_leaf_comparison.png",
+      "submitted_dimensions": [
+        3575,
+        5560
+      ],
+      "rebuilt_dimensions": [
+        3575,
+        5560
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig4_SNP_selection_ASE.png",
+      "submitted_dimensions": [
+        3240,
+        2850
+      ],
+      "rebuilt_dimensions": [
+        3240,
+        2850
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig5_candidate_allele_fractions.png",
+      "submitted_dimensions": [
+        3450,
+        3119
+      ],
+      "rebuilt_dimensions": [
+        3450,
+        3119
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "Fig6_qPCR_validation.png",
+      "submitted_dimensions": [
+        3590,
+        3535
+      ],
+      "rebuilt_dimensions": [
+        3590,
+        3535
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS1_cumulative_harvest.png",
+      "submitted_dimensions": [
+        3484,
+        1583
+      ],
+      "rebuilt_dimensions": [
+        3484,
+        1583
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS2_core_ASE_shared_effects.png",
+      "submitted_dimensions": [
+        3560,
+        1691
+      ],
+      "rebuilt_dimensions": [
+        3560,
+        1691
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS3_model_calibration.png",
+      "submitted_dimensions": [
+        3547,
+        1802
+      ],
+      "rebuilt_dimensions": [
+        3547,
+        1802
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS4_qPCR_atlas_p1.png",
+      "submitted_dimensions": [
+        4200,
+        5627
+      ],
+      "rebuilt_dimensions": [
+        4200,
+        5627
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS4_qPCR_atlas_p2.png",
+      "submitted_dimensions": [
+        4200,
+        5627
+      ],
+      "rebuilt_dimensions": [
+        4200,
+        5627
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS4_qPCR_atlas_p3.png",
+      "submitted_dimensions": [
+        4200,
+        5627
+      ],
+      "rebuilt_dimensions": [
+        4200,
+        5627
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS5_product_decomposition.png",
+      "submitted_dimensions": [
+        3118,
+        2415
+      ],
+      "rebuilt_dimensions": [
+        3118,
+        2415
+      ],
+      "pixel_identical": true
+    },
+    {
+      "file": "FigS6_fruit_stage_enrichment.png",
+      "submitted_dimensions": [
+        3387,
+        1927
+      ],
+      "rebuilt_dimensions": [
+        3387,
+        1927
+      ],
+      "pixel_identical": true
+    }
+  ],
+  "all_compared_PNGs_pixel_identical": true,
+  "scope": "Workbook values, effective styles and rich-text runs; optional full-resolution PNG and 72-dpi PDF comparisons. Pixel differences are reported; --require-identical makes them fatal."
+}

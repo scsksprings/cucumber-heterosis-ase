@@ -1,0 +1,9 @@
+effect_set	gene_id	stage	context	effects_excluded	n_libraries_count_ge10	max_raw_count	RNA_libraries_in_context	reason
+parental	CsaV3_4G002300	fruit_6d	F6	4	2	11	15	excluded: fewer than 3 of 15 RNA libraries with raw count >=10
+parental	CsaV3_4G002320	fruit_6d	F6	4	1	13	15	excluded: fewer than 3 of 15 RNA libraries with raw count >=10
+parental	CsaV3_6G015610	fruit_3d	F3	4	2	11	15	excluded: fewer than 3 of 15 RNA libraries with raw count >=10
+parental	CsaV3_6G015610	fruit_6d	F6	4	0	6	15	excluded: fewer than 3 of 15 RNA libraries with raw count >=10
+midparent	CsaV3_4G002300	fruit_6d	F6	2	2	11	15	excluded: fewer than 3 of 15 RNA libraries with raw count >=10
+midparent	CsaV3_4G002320	fruit_6d	F6	2	1	13	15	excluded: fewer than 3 of 15 RNA libraries with raw count >=10
+midparent	CsaV3_6G015610	fruit_3d	F3	2	2	11	15	excluded: fewer than 3 of 15 RNA libraries with raw count >=10
+midparent	CsaV3_6G015610	fruit_6d	F6	2	0	6	15	excluded: fewer than 3 of 15 RNA libraries with raw count >=10

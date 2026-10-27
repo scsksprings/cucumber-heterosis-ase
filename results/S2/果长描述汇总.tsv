@@ -1,0 +1,6 @@
+genotype	n_records	mean_cm	SD_cm	min_cm	max_cm	inference
+D	20	28.939999999999998	0.7014271166700071	27.6	30.2	descriptive_records_only; block_and_plant_ID_unknown
+MD	20	31.405	0.9555791850743544	29.7	33.2	descriptive_records_only; block_and_plant_ID_unknown
+C	20	37.875	0.5865824301565983	36.8	38.9	descriptive_records_only; block_and_plant_ID_unknown
+MS	20	24.5	1.4345364187925331	22.2	27.3	descriptive_records_only; block_and_plant_ID_unknown
+S	20	12.3	0.5505977612893482	11.2	13.2	descriptive_records_only; block_and_plant_ID_unknown

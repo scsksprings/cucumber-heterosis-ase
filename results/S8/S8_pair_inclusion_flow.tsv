@@ -1,0 +1,7 @@
+effect_set	step	description	effects	count_role	genes_retained
+parental	1	all qPCR effects (27 genes x 5 contexts x contrasts)	540	retained	
+parental	2	exclude 4 gene-contexts failing RNA low-count prefilter	16	excluded	
+parental	3	retained matched effects	524	retained	27.0
+midparent	1	all qPCR effects (27 genes x 5 contexts x contrasts)	270	retained	
+midparent	2	exclude 4 gene-contexts failing RNA low-count prefilter	8	excluded	
+midparent	3	retained matched effects	262	retained	27.0

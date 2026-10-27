@@ -1,0 +1,856 @@
+[
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/scripts/count_gene_alleles.py",
+    "destination": "pipeline/scripts/count_gene_alleles.py",
+    "source_sha256": "6a2c7551a28e2eb9c5fc0679b6ec7783c4ca5be5053df31754d18efa1372a913",
+    "destination_sha256": "6a2c7551a28e2eb9c5fc0679b6ec7783c4ca5be5053df31754d18efa1372a913",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/scripts/fit_ase_beta_binomial.py",
+    "destination": "pipeline/scripts/fit_ase_beta_binomial.py",
+    "source_sha256": "01dca2d0976db9ec159cd29dbb31b246a4fb85f0f42d21c26752f89fac1335c2",
+    "destination_sha256": "01dca2d0976db9ec159cd29dbb31b246a4fb85f0f42d21c26752f89fac1335c2",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/scripts/calibrate_ase_shared_dispersion.py",
+    "destination": "pipeline/scripts/calibrate_ase_shared_dispersion.py",
+    "source_sha256": "02834a67d8a37921e6207917a83bfd7f63c40f263ee0dd2a7f639131a7dc3f9c",
+    "destination_sha256": "02834a67d8a37921e6207917a83bfd7f63c40f263ee0dd2a7f639131a7dc3f9c",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/scripts/select_informative_parent_snps.py",
+    "destination": "pipeline/scripts/select_informative_parent_snps.py",
+    "source_sha256": "8a6d2cb234429d52a166d1d234c73ff496ba95b3d3c112174d175f53c192e54b",
+    "destination_sha256": "8a6d2cb234429d52a166d1d234c73ff496ba95b3d3c112174d175f53c192e54b",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/scripts/vcf_to_wasp_snp_dir.py",
+    "destination": "pipeline/scripts/vcf_to_wasp_snp_dir.py",
+    "source_sha256": "808d737d6036435e3945049ef7a2aa64cb33b5dbb414932066f75f7cd8fdd23f",
+    "destination_sha256": "808d737d6036435e3945049ef7a2aa64cb33b5dbb414932066f75f7cd8fdd23f",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/scripts/summarize_ase_dynamics.py",
+    "destination": "pipeline/scripts/summarize_ase_dynamics.py",
+    "source_sha256": "98608d5f5536e3dcdd7e0919257983ac70581a6ed310d755a22dc202ce7c5084",
+    "destination_sha256": "98608d5f5536e3dcdd7e0919257983ac70581a6ed310d755a22dc202ce7c5084",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "analysis/scripts/build_star_count_matrix.py",
+    "destination": "pipeline/scripts/build_star_count_matrix.py",
+    "source_sha256": "7e62c063229f13b886f9488c53780a65132019871f9a23ca44e9588e274b3c31",
+    "destination_sha256": "7e62c063229f13b886f9488c53780a65132019871f9a23ca44e9588e274b3c31",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "analysis/scripts/run_deseq2_expression.R",
+    "destination": "pipeline/scripts/run_deseq2_expression.R",
+    "source_sha256": "d720eb8d5e1341410ec000f989f97ea8cf39da6d59ea67d1ed0698e230fdca5a",
+    "destination_sha256": "d720eb8d5e1341410ec000f989f97ea8cf39da6d59ea67d1ed0698e230fdca5a",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "analysis/scripts/run_fruit_stage_interaction.R",
+    "destination": "pipeline/scripts/run_fruit_stage_interaction.R",
+    "source_sha256": "dee65202f2f576941afb271170a146be6ae9303f5f08c373dc26663c749f9168",
+    "destination_sha256": "dee65202f2f576941afb271170a146be6ae9303f5f08c373dc26663c749f9168",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "analysis/scripts/classify_expression_inheritance.py",
+    "destination": "pipeline/scripts/classify_expression_inheritance.py",
+    "source_sha256": "363e2e8478b413ee404822adf6edd828213da82d47a5093c4a62ee6c0f891ac5",
+    "destination_sha256": "363e2e8478b413ee404822adf6edd828213da82d47a5093c4a62ee6c0f891ac5",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/scripts/final_ase_postprocess.py",
+    "destination": "pipeline/scripts/final_ase_postprocess.py",
+    "source_sha256": "7bb5868d35ee96d55ab23f3ebb2872638d21ba0e20e9b3bc4074674af4501ef5",
+    "destination_sha256": "9749a4d915e1cae79dcd75265577608ba28430af225660d588fee830ca51814d",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "analysis/workflows/ase_reanalysis/Snakefile",
+    "destination": "pipeline/workflows/Snakefile",
+    "source_sha256": "0bb613095a8293df7fd11cdd08b975d409de7a009b20d274e0fedf9f365304c6",
+    "destination_sha256": "2e8fdf36ced8c54e379aacf485a23a1410c8db0975125d61ad467bc1f6e71910",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "analysis/workflows/ase_reanalysis/expression.smk",
+    "destination": "pipeline/workflows/expression.smk",
+    "source_sha256": "f06cd077c2db8b306c58147eeedebd9b03aee7b0bb37ac15fee1aadab9c838bb",
+    "destination_sha256": "e90da614ce1835756018a029f72b7fc2b92c1c3e520b359d20c099a3c57fd635",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/workflows/ase_reanalysis/variants.smk",
+    "destination": "pipeline/workflows/variants.smk",
+    "source_sha256": "584e84c8311104b3e93ef4f3292476871ed3498357952beb11b57f884e567d8d",
+    "destination_sha256": "9696c06468a0fb47e50b6692e11aa64011b3130ad9c2f4fe3d38109f28820f99",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/workflows/ase_reanalysis/wasp_ase.smk",
+    "destination": "pipeline/workflows/wasp_ase.smk",
+    "source_sha256": "13f9bdfc3014996cf5c098b115a22a3427602d9c3e4a6afbe438d150e3fc5039",
+    "destination_sha256": "8afa0b27629a7cc157b8af86766b3cb17fc7a04d402cbc5e943a8c12b0a9fddf",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/external/WASP/mapping/find_intersecting_snps.py",
+    "destination": "pipeline/vendor/WASP/mapping/find_intersecting_snps.py",
+    "source_sha256": "566d8bad54d9f0a85bbadc21c1edbe27026061500f9512f341657aced8ec7edb",
+    "destination_sha256": "566d8bad54d9f0a85bbadc21c1edbe27026061500f9512f341657aced8ec7edb",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/external/WASP/mapping/filter_remapped_reads.py",
+    "destination": "pipeline/vendor/WASP/mapping/filter_remapped_reads.py",
+    "source_sha256": "b2eaea86899d85ba2ea9682d4a46d44b32c5d59cfccf3144641ae8e9d170d883",
+    "destination_sha256": "b2eaea86899d85ba2ea9682d4a46d44b32c5d59cfccf3144641ae8e9d170d883",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/external/WASP/mapping/rmdup_pe.py",
+    "destination": "pipeline/vendor/WASP/mapping/rmdup_pe.py",
+    "source_sha256": "486c26d7de724bc60309ae74fd9f6735f533aead9f2ed202659057059c9bbb3c",
+    "destination_sha256": "2f3e4032770e9a9f8aaafcdee284c97c162c8076f87a63122bce0c78aa28bac8",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/external/WASP/mapping/util.py",
+    "destination": "pipeline/vendor/WASP/mapping/util.py",
+    "source_sha256": "d75919ebbd50c8d8ff43191b5c418eab7af9fbec5452dbbd242ff3fdc2d224b3",
+    "destination_sha256": "d75919ebbd50c8d8ff43191b5c418eab7af9fbec5452dbbd242ff3fdc2d224b3",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/source/analysis/external/WASP/mapping/snptable.py",
+    "destination": "pipeline/vendor/WASP/mapping/snptable.py",
+    "source_sha256": "cd4504cf2fc20055d495e0680cc5d2d7ba79cb17a68171fc315e49c36aa9736e",
+    "destination_sha256": "cd4504cf2fc20055d495e0680cc5d2d7ba79cb17a68171fc315e49c36aa9736e",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "analysis/external/WASP/LICENSE",
+    "destination": "pipeline/vendor/WASP/LICENSE",
+    "source_sha256": "6dc0e068dcf3a5bc8e054205b85b7720e1d49265bbc64bf515d2cf79197df69a",
+    "destination_sha256": "6dc0e068dcf3a5bc8e054205b85b7720e1d49265bbc64bf515d2cf79197df69a",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_reanalysis/expression/count_matrix.tsv",
+    "destination": "data/rnaseq/star_gene_counts.tsv",
+    "source_sha256": "317ba4dcdf722ceb08fb3a231ac4599fd9e6a56e5ac7f620f3e9860d541fa040",
+    "destination_sha256": "317ba4dcdf722ceb08fb3a231ac4599fd9e6a56e5ac7f620f3e9860d541fa040",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD1.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD1.gene_allele_counts.tsv.gz",
+    "source_sha256": "0202c10000c11822f40a5ce8a5dea4411ad7c0593cf6a1b85312a866ade4a1df",
+    "destination_sha256": "0202c10000c11822f40a5ce8a5dea4411ad7c0593cf6a1b85312a866ade4a1df",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD10.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD10.gene_allele_counts.tsv.gz",
+    "source_sha256": "9bff49f56ce5b078f45744b9f1658c14f04638c35276ff674152d4dc6323e861",
+    "destination_sha256": "9bff49f56ce5b078f45744b9f1658c14f04638c35276ff674152d4dc6323e861",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD11.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD11.gene_allele_counts.tsv.gz",
+    "source_sha256": "5ac7bf83cf2e63f94c97d80b688831d2358d84fdc882290f2bf278b835306e0c",
+    "destination_sha256": "5ac7bf83cf2e63f94c97d80b688831d2358d84fdc882290f2bf278b835306e0c",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD12.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD12.gene_allele_counts.tsv.gz",
+    "source_sha256": "35049c0d081a24ba9613f486bee04d8676674ae6899a563760de211e9edcff66",
+    "destination_sha256": "35049c0d081a24ba9613f486bee04d8676674ae6899a563760de211e9edcff66",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD16.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD16.gene_allele_counts.tsv.gz",
+    "source_sha256": "8210fa26514bee2aae40b3fda26d796adad60c3d7739a86a32728a6c2e33b69d",
+    "destination_sha256": "8210fa26514bee2aae40b3fda26d796adad60c3d7739a86a32728a6c2e33b69d",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD17.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD17.gene_allele_counts.tsv.gz",
+    "source_sha256": "891a0c2aebea2741749688ef5a8885e35cf369c46dd48fdd86c0471a38f06293",
+    "destination_sha256": "891a0c2aebea2741749688ef5a8885e35cf369c46dd48fdd86c0471a38f06293",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD18.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD18.gene_allele_counts.tsv.gz",
+    "source_sha256": "7c1c885c5381e10db5cff414f2fd3c6777e57c48e267cbd71f5dbd4ddf016d38",
+    "destination_sha256": "7c1c885c5381e10db5cff414f2fd3c6777e57c48e267cbd71f5dbd4ddf016d38",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD2.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD2.gene_allele_counts.tsv.gz",
+    "source_sha256": "4c2853ba998b2de1c68ee57d7b8e5144ea2b1ab1b19773e523b990717c676355",
+    "destination_sha256": "4c2853ba998b2de1c68ee57d7b8e5144ea2b1ab1b19773e523b990717c676355",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD3.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD3.gene_allele_counts.tsv.gz",
+    "source_sha256": "aa5fddd37226884b6f77985baa0d896dfe7310786c88708848da8e1710f77c7b",
+    "destination_sha256": "aa5fddd37226884b6f77985baa0d896dfe7310786c88708848da8e1710f77c7b",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD4.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD4.gene_allele_counts.tsv.gz",
+    "source_sha256": "74db99d16224e60db3ab73b1cd8934730ad1978e5395164998e61b7bd488c41c",
+    "destination_sha256": "74db99d16224e60db3ab73b1cd8934730ad1978e5395164998e61b7bd488c41c",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD5.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD5.gene_allele_counts.tsv.gz",
+    "source_sha256": "390c468b398cd2d8e492c1e5062612e6585f0fb731c457e157e048f599890907",
+    "destination_sha256": "390c468b398cd2d8e492c1e5062612e6585f0fb731c457e157e048f599890907",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD6.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD6.gene_allele_counts.tsv.gz",
+    "source_sha256": "118321ace45581f6fd5d15050a46d0be0844c0e7a2f887e8797ec89f767e55ba",
+    "destination_sha256": "118321ace45581f6fd5d15050a46d0be0844c0e7a2f887e8797ec89f767e55ba",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD7.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD7.gene_allele_counts.tsv.gz",
+    "source_sha256": "e7f2baa6ed40d435870a783b87277790fe44b80984dc7681141fbb2c64e7b974",
+    "destination_sha256": "e7f2baa6ed40d435870a783b87277790fe44b80984dc7681141fbb2c64e7b974",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD8.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD8.gene_allele_counts.tsv.gz",
+    "source_sha256": "1effa67c23b3cbb75b462a6390cd64e1a4a84c23303c60a2caf9a1edaddae48a",
+    "destination_sha256": "1effa67c23b3cbb75b462a6390cd64e1a4a84c23303c60a2caf9a1edaddae48a",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MD9.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MD9.gene_allele_counts.tsv.gz",
+    "source_sha256": "86038130529cd341e8453ae949335af18135588a631a379a2db0d7cd2a711152",
+    "destination_sha256": "86038130529cd341e8453ae949335af18135588a631a379a2db0d7cd2a711152",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS1.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS1.gene_allele_counts.tsv.gz",
+    "source_sha256": "ac4ea9aa9429cd76d9205cf6a8ef433292d647c7a509efc7b5362e5c45d96d17",
+    "destination_sha256": "ac4ea9aa9429cd76d9205cf6a8ef433292d647c7a509efc7b5362e5c45d96d17",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS10.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS10.gene_allele_counts.tsv.gz",
+    "source_sha256": "98e423e5fc262e91fafd8811cb70854099609ff29ae5da7a2bd02717badb471b",
+    "destination_sha256": "98e423e5fc262e91fafd8811cb70854099609ff29ae5da7a2bd02717badb471b",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS11.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS11.gene_allele_counts.tsv.gz",
+    "source_sha256": "59d5a013a69b10c62c3b2482f471426e4ab720741ffd521365c64ca381745399",
+    "destination_sha256": "59d5a013a69b10c62c3b2482f471426e4ab720741ffd521365c64ca381745399",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS12.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS12.gene_allele_counts.tsv.gz",
+    "source_sha256": "b48dbdccb0dadcdf8b738b3d493e62dbe2e9350df451fa33dad083864efb31d7",
+    "destination_sha256": "b48dbdccb0dadcdf8b738b3d493e62dbe2e9350df451fa33dad083864efb31d7",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS16.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS16.gene_allele_counts.tsv.gz",
+    "source_sha256": "0cfe10f0bcc5f8e0d0842c19f85711da872a87e11680ba27762bd10bed0de13b",
+    "destination_sha256": "0cfe10f0bcc5f8e0d0842c19f85711da872a87e11680ba27762bd10bed0de13b",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS17.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS17.gene_allele_counts.tsv.gz",
+    "source_sha256": "6f2bf8f86699b6c71776e8f157d217da0d78999361f67b1919019529aa0f22c7",
+    "destination_sha256": "6f2bf8f86699b6c71776e8f157d217da0d78999361f67b1919019529aa0f22c7",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS18.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS18.gene_allele_counts.tsv.gz",
+    "source_sha256": "fd8a2890180db4a351066d7551a22648758387fc4bec5a0af2b29ba11fddc785",
+    "destination_sha256": "fd8a2890180db4a351066d7551a22648758387fc4bec5a0af2b29ba11fddc785",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS2.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS2.gene_allele_counts.tsv.gz",
+    "source_sha256": "c8c77a813d1c8125050d2a55ed438611ac5bcf0eaeb9a35f4782b73e94688bcf",
+    "destination_sha256": "c8c77a813d1c8125050d2a55ed438611ac5bcf0eaeb9a35f4782b73e94688bcf",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS3.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS3.gene_allele_counts.tsv.gz",
+    "source_sha256": "3a98538ac53f5ad08ca329785e3d8df7c2ed8146682a0860fe646c5aa11253d2",
+    "destination_sha256": "3a98538ac53f5ad08ca329785e3d8df7c2ed8146682a0860fe646c5aa11253d2",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS4.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS4.gene_allele_counts.tsv.gz",
+    "source_sha256": "568e1c20e417febe99f13def3904b6878fc52045bd3c8a30f375fe23b48f14d2",
+    "destination_sha256": "568e1c20e417febe99f13def3904b6878fc52045bd3c8a30f375fe23b48f14d2",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS5.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS5.gene_allele_counts.tsv.gz",
+    "source_sha256": "047d0ef6d03508c08009c30d500050b35d93d2dbd3e6213456b759388aa1207d",
+    "destination_sha256": "047d0ef6d03508c08009c30d500050b35d93d2dbd3e6213456b759388aa1207d",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS6.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS6.gene_allele_counts.tsv.gz",
+    "source_sha256": "b95eeef3111d41f2f3859bd1b315cec8290801258290a139bd6e627480e2a3b7",
+    "destination_sha256": "b95eeef3111d41f2f3859bd1b315cec8290801258290a139bd6e627480e2a3b7",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS7.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS7.gene_allele_counts.tsv.gz",
+    "source_sha256": "9e72dfe34f21b69bdd6a06536633fe19d58474ee2509a6317f4e674a96c3cc2b",
+    "destination_sha256": "9e72dfe34f21b69bdd6a06536633fe19d58474ee2509a6317f4e674a96c3cc2b",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS8.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS8.gene_allele_counts.tsv.gz",
+    "source_sha256": "c8b7f0df257d12542765ba25a71c3072aaaaa4a4cabe591524c833463b473606",
+    "destination_sha256": "c8b7f0df257d12542765ba25a71c3072aaaaa4a4cabe591524c833463b473606",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/ase/gene_counts/MS9.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/all/MS9.gene_allele_counts.tsv.gz",
+    "source_sha256": "aea306171b147aad7d601292ee5404b19f15f94cbc944ddd611c48a6c4eaab8e",
+    "destination_sha256": "aea306171b147aad7d601292ee5404b19f15f94cbc944ddd611c48a6c4eaab8e",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD1.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD1.gene_allele_counts.tsv.gz",
+    "source_sha256": "a5f2f52403f8ce6cd651d261681846e01dd67d4b3d6ba2b4f8f6d38332e135e1",
+    "destination_sha256": "a5f2f52403f8ce6cd651d261681846e01dd67d4b3d6ba2b4f8f6d38332e135e1",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD10.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD10.gene_allele_counts.tsv.gz",
+    "source_sha256": "2ed2b6a0ad6c733d653ae49914020a2e285814e5ed6fd5af0cc42b486a051938",
+    "destination_sha256": "2ed2b6a0ad6c733d653ae49914020a2e285814e5ed6fd5af0cc42b486a051938",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD11.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD11.gene_allele_counts.tsv.gz",
+    "source_sha256": "30d1ffe91c2bc179e055f809d03602f7149ff9dd88274d88f18fdc925242100d",
+    "destination_sha256": "30d1ffe91c2bc179e055f809d03602f7149ff9dd88274d88f18fdc925242100d",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD12.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD12.gene_allele_counts.tsv.gz",
+    "source_sha256": "74f121ab21b20491b0982527e875723e6d9d2d7afef9a0aea68bc72fe2ce01db",
+    "destination_sha256": "74f121ab21b20491b0982527e875723e6d9d2d7afef9a0aea68bc72fe2ce01db",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD16.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD16.gene_allele_counts.tsv.gz",
+    "source_sha256": "07935df09c960f7c6fe1459aed5f2eba21ea4ef3506f0a6ab1e45b959529c068",
+    "destination_sha256": "07935df09c960f7c6fe1459aed5f2eba21ea4ef3506f0a6ab1e45b959529c068",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD17.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD17.gene_allele_counts.tsv.gz",
+    "source_sha256": "728fa4db5d7728b3c728716613558130d122fa721e14f8006536b272679b3abd",
+    "destination_sha256": "728fa4db5d7728b3c728716613558130d122fa721e14f8006536b272679b3abd",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD18.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD18.gene_allele_counts.tsv.gz",
+    "source_sha256": "2acfc0df3adc8c6c77daa6e0da1baf267787761735790432dd66a095c14e2a91",
+    "destination_sha256": "2acfc0df3adc8c6c77daa6e0da1baf267787761735790432dd66a095c14e2a91",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD2.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD2.gene_allele_counts.tsv.gz",
+    "source_sha256": "bca6633f69b752bb1e5bbea0b85b60f4d37c375c82b6e060f707e2d552857ce8",
+    "destination_sha256": "bca6633f69b752bb1e5bbea0b85b60f4d37c375c82b6e060f707e2d552857ce8",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD3.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD3.gene_allele_counts.tsv.gz",
+    "source_sha256": "1164eecd2c2b100ebbfa3d863b7d94e2f11044f478e0ab9de2fe82310b925659",
+    "destination_sha256": "1164eecd2c2b100ebbfa3d863b7d94e2f11044f478e0ab9de2fe82310b925659",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD4.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD4.gene_allele_counts.tsv.gz",
+    "source_sha256": "33e9e79069329196d3f44886b316a031dfde7bd0d71c4bb78b795890f55d66b4",
+    "destination_sha256": "33e9e79069329196d3f44886b316a031dfde7bd0d71c4bb78b795890f55d66b4",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD5.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD5.gene_allele_counts.tsv.gz",
+    "source_sha256": "7b05c30845eb568d23bd5df123c95c3af4efad44228669dfb913e0104aff164b",
+    "destination_sha256": "7b05c30845eb568d23bd5df123c95c3af4efad44228669dfb913e0104aff164b",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD6.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD6.gene_allele_counts.tsv.gz",
+    "source_sha256": "5687048ecc8e45f8dd221faed861b2a10953114a25e4f604f0d3967e6f7fbe66",
+    "destination_sha256": "5687048ecc8e45f8dd221faed861b2a10953114a25e4f604f0d3967e6f7fbe66",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD7.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD7.gene_allele_counts.tsv.gz",
+    "source_sha256": "c16c54652161906f1c6aecc0a80044f8e0932125b4e119ea56225b8c982dd1b2",
+    "destination_sha256": "c16c54652161906f1c6aecc0a80044f8e0932125b4e119ea56225b8c982dd1b2",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD8.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD8.gene_allele_counts.tsv.gz",
+    "source_sha256": "fa418539871883bbaa2499db91fe6a056db6ded186d721e23a2938560ced4307",
+    "destination_sha256": "fa418539871883bbaa2499db91fe6a056db6ded186d721e23a2938560ced4307",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MD9.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MD9.gene_allele_counts.tsv.gz",
+    "source_sha256": "e5769c9da06874910e4801136a0bf9a7022ca81d5d4f1df5050383480fa9ce7e",
+    "destination_sha256": "e5769c9da06874910e4801136a0bf9a7022ca81d5d4f1df5050383480fa9ce7e",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS1.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS1.gene_allele_counts.tsv.gz",
+    "source_sha256": "4dd83ec3dab5c83a13a5ccb81595c59cece77ccc0ee2d1c30270f8d5bcd49c83",
+    "destination_sha256": "4dd83ec3dab5c83a13a5ccb81595c59cece77ccc0ee2d1c30270f8d5bcd49c83",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS10.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS10.gene_allele_counts.tsv.gz",
+    "source_sha256": "1086bba665c5a7f83715caf8dc7901114e7e3df032193c97fbadcb80735b0fd0",
+    "destination_sha256": "1086bba665c5a7f83715caf8dc7901114e7e3df032193c97fbadcb80735b0fd0",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS11.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS11.gene_allele_counts.tsv.gz",
+    "source_sha256": "80483c4ed4afca95eb5b32f7c2c51abba9163412c296b7ea6170bd41de6f4b95",
+    "destination_sha256": "80483c4ed4afca95eb5b32f7c2c51abba9163412c296b7ea6170bd41de6f4b95",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS12.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS12.gene_allele_counts.tsv.gz",
+    "source_sha256": "a98c20cc353d539b52f2b8e1c6f28368621c698dfefec56dcff28821c1e3d2ed",
+    "destination_sha256": "a98c20cc353d539b52f2b8e1c6f28368621c698dfefec56dcff28821c1e3d2ed",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS16.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS16.gene_allele_counts.tsv.gz",
+    "source_sha256": "a3180dd6a40b57481d8591590bcae1ad21d3cb07cc17d4f041a022ff2b72eb1a",
+    "destination_sha256": "a3180dd6a40b57481d8591590bcae1ad21d3cb07cc17d4f041a022ff2b72eb1a",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS17.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS17.gene_allele_counts.tsv.gz",
+    "source_sha256": "9f4a5c63c67f1f1f32278268577f5651bcd851bf729095e6dd11bbd139773fc2",
+    "destination_sha256": "9f4a5c63c67f1f1f32278268577f5651bcd851bf729095e6dd11bbd139773fc2",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS18.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS18.gene_allele_counts.tsv.gz",
+    "source_sha256": "1e3be81ea002ab901932e388e6a990e1e86513fe8f9001ed0be41b02261c537d",
+    "destination_sha256": "1e3be81ea002ab901932e388e6a990e1e86513fe8f9001ed0be41b02261c537d",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS2.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS2.gene_allele_counts.tsv.gz",
+    "source_sha256": "6c13ced46a9dc5d6a9a9a3545d01ce03f69d038716ad7b0931db1e963630233b",
+    "destination_sha256": "6c13ced46a9dc5d6a9a9a3545d01ce03f69d038716ad7b0931db1e963630233b",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS3.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS3.gene_allele_counts.tsv.gz",
+    "source_sha256": "9be3c57973e479e6d9f27f894fdacd8ce25b96c411b93ab92e57d9c0ae1776c0",
+    "destination_sha256": "9be3c57973e479e6d9f27f894fdacd8ce25b96c411b93ab92e57d9c0ae1776c0",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS4.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS4.gene_allele_counts.tsv.gz",
+    "source_sha256": "a89bffde3ae899e118a8a424d1203158690d3758f360b1911202f5c70288ff7e",
+    "destination_sha256": "a89bffde3ae899e118a8a424d1203158690d3758f360b1911202f5c70288ff7e",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS5.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS5.gene_allele_counts.tsv.gz",
+    "source_sha256": "44f7389592072c87aa372cb2edb503612bfef464b55c03e651e5bc33a4202ca1",
+    "destination_sha256": "44f7389592072c87aa372cb2edb503612bfef464b55c03e651e5bc33a4202ca1",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS6.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS6.gene_allele_counts.tsv.gz",
+    "source_sha256": "2dc76dfa7bf7773840571bf70d8ba2f4a1433e2601a731d9b44416856029c637",
+    "destination_sha256": "2dc76dfa7bf7773840571bf70d8ba2f4a1433e2601a731d9b44416856029c637",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS7.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS7.gene_allele_counts.tsv.gz",
+    "source_sha256": "4f09855e2b8b041a5aba694f2b502d66d7d8c0f65b82309e98111b48c47526db",
+    "destination_sha256": "4f09855e2b8b041a5aba694f2b502d66d7d8c0f65b82309e98111b48c47526db",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS8.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS8.gene_allele_counts.tsv.gz",
+    "source_sha256": "987bc5dc625475a6e3c25d1f1f012b78ec8d174db3046a97c6b6c86fb7448c0e",
+    "destination_sha256": "987bc5dc625475a6e3c25d1f1f012b78ec8d174db3046a97c6b6c86fb7448c0e",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/counts/MS9.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common3/MS9.gene_allele_counts.tsv.gz",
+    "source_sha256": "b9dbe4fce173abe5702f3e495e580ce61f80b5b2e1334676d9e7530b9d9b5ea7",
+    "destination_sha256": "b9dbe4fce173abe5702f3e495e580ce61f80b5b2e1334676d9e7530b9d9b5ea7",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD1.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD1.gene_allele_counts.tsv.gz",
+    "source_sha256": "2e5ec70e17e498ca2e6de675da20466ce492601b743d30ef750a4ab143de09c6",
+    "destination_sha256": "2e5ec70e17e498ca2e6de675da20466ce492601b743d30ef750a4ab143de09c6",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD10.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD10.gene_allele_counts.tsv.gz",
+    "source_sha256": "61e1dabdee921d9483639fbd7feefff562c900a8d9f3fd8858a3a6c0c59f3455",
+    "destination_sha256": "61e1dabdee921d9483639fbd7feefff562c900a8d9f3fd8858a3a6c0c59f3455",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD11.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD11.gene_allele_counts.tsv.gz",
+    "source_sha256": "fe99393f26de04be8c8605822e257e985c609777da4c06a59a3e80891beb92d1",
+    "destination_sha256": "fe99393f26de04be8c8605822e257e985c609777da4c06a59a3e80891beb92d1",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD12.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD12.gene_allele_counts.tsv.gz",
+    "source_sha256": "3bd6649ca2b611f4c0e80157cfa1269690b02c380a4687c011a780848d2f7b42",
+    "destination_sha256": "3bd6649ca2b611f4c0e80157cfa1269690b02c380a4687c011a780848d2f7b42",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD16.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD16.gene_allele_counts.tsv.gz",
+    "source_sha256": "fbe3f48c07d930c0e69ee765c954b7ec8dc8f2786530d4ae84ef2d5dd2f069c5",
+    "destination_sha256": "fbe3f48c07d930c0e69ee765c954b7ec8dc8f2786530d4ae84ef2d5dd2f069c5",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD17.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD17.gene_allele_counts.tsv.gz",
+    "source_sha256": "ffcf9ffbc77cd9a7d029e619e8af5a1f32062805bac56770e99a71d8135c1254",
+    "destination_sha256": "ffcf9ffbc77cd9a7d029e619e8af5a1f32062805bac56770e99a71d8135c1254",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD18.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD18.gene_allele_counts.tsv.gz",
+    "source_sha256": "67e3d30c4849280969566e0e645522bb029f67215555031e9abcfea29048b0e0",
+    "destination_sha256": "67e3d30c4849280969566e0e645522bb029f67215555031e9abcfea29048b0e0",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD2.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD2.gene_allele_counts.tsv.gz",
+    "source_sha256": "408eff24e08c794a99e9bfb9d632a2979d778a5578d71e66b7ea93c2bc468ab5",
+    "destination_sha256": "408eff24e08c794a99e9bfb9d632a2979d778a5578d71e66b7ea93c2bc468ab5",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD3.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD3.gene_allele_counts.tsv.gz",
+    "source_sha256": "62720e131ac5d363f8394f5901dfa74ed80a4ef7ab6e9759dea40bd4bab9f0ec",
+    "destination_sha256": "62720e131ac5d363f8394f5901dfa74ed80a4ef7ab6e9759dea40bd4bab9f0ec",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD4.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD4.gene_allele_counts.tsv.gz",
+    "source_sha256": "c7551c0a446a15c61ae9f29b3776b0b5a41e0071e13c2fae2499e7bbbeaefc7f",
+    "destination_sha256": "c7551c0a446a15c61ae9f29b3776b0b5a41e0071e13c2fae2499e7bbbeaefc7f",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD5.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD5.gene_allele_counts.tsv.gz",
+    "source_sha256": "2eb9585093c96ece937d62253c0bfc6ec0d0d8b343b843fbf5f580df3f477069",
+    "destination_sha256": "2eb9585093c96ece937d62253c0bfc6ec0d0d8b343b843fbf5f580df3f477069",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD6.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD6.gene_allele_counts.tsv.gz",
+    "source_sha256": "799e849046b6671d5b4972fe6d521bbebc21a9ac0a6777ec1b8fe5a5ccb3fa5c",
+    "destination_sha256": "799e849046b6671d5b4972fe6d521bbebc21a9ac0a6777ec1b8fe5a5ccb3fa5c",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD7.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD7.gene_allele_counts.tsv.gz",
+    "source_sha256": "681a9ac2e31ec9553ee4af849ccc65e6518aa071f3f111ddcf258b478935f243",
+    "destination_sha256": "681a9ac2e31ec9553ee4af849ccc65e6518aa071f3f111ddcf258b478935f243",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD8.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD8.gene_allele_counts.tsv.gz",
+    "source_sha256": "5a08726c413b444520e722ec6f220cac2a91654bbb57420f61448edeba212108",
+    "destination_sha256": "5a08726c413b444520e722ec6f220cac2a91654bbb57420f61448edeba212108",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MD9.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MD9.gene_allele_counts.tsv.gz",
+    "source_sha256": "7b8528239a21cc53b7d032f861d489ba7000dd0a99b6c011739ec40adceadc14",
+    "destination_sha256": "7b8528239a21cc53b7d032f861d489ba7000dd0a99b6c011739ec40adceadc14",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS1.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS1.gene_allele_counts.tsv.gz",
+    "source_sha256": "aae82bd39a93768faa6495dc904cb971842e3878ade35abc8167c2a09a361214",
+    "destination_sha256": "aae82bd39a93768faa6495dc904cb971842e3878ade35abc8167c2a09a361214",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS10.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS10.gene_allele_counts.tsv.gz",
+    "source_sha256": "30f03cb78f7d1e9402ee2900f0503c67f58f948a2d363242e2cabc1e01c7d980",
+    "destination_sha256": "30f03cb78f7d1e9402ee2900f0503c67f58f948a2d363242e2cabc1e01c7d980",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS11.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS11.gene_allele_counts.tsv.gz",
+    "source_sha256": "14f1c3ddd3002f1edce6d46fcc9593afc56ea2f5bb4b5027282662467ec964ee",
+    "destination_sha256": "14f1c3ddd3002f1edce6d46fcc9593afc56ea2f5bb4b5027282662467ec964ee",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS12.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS12.gene_allele_counts.tsv.gz",
+    "source_sha256": "bdfd306bc5d0a001b69cd05c036bb7a4d63a9e70b2f7110301c5e3090168b8e4",
+    "destination_sha256": "bdfd306bc5d0a001b69cd05c036bb7a4d63a9e70b2f7110301c5e3090168b8e4",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS16.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS16.gene_allele_counts.tsv.gz",
+    "source_sha256": "7ad612fcb872c1a4f4b7fcd8015f68b9017025252c63755d57f297619ce4001d",
+    "destination_sha256": "7ad612fcb872c1a4f4b7fcd8015f68b9017025252c63755d57f297619ce4001d",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS17.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS17.gene_allele_counts.tsv.gz",
+    "source_sha256": "91c9967d05920c52e815a48ce0c3789adc87afe64adb27f0299095370416c607",
+    "destination_sha256": "91c9967d05920c52e815a48ce0c3789adc87afe64adb27f0299095370416c607",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS18.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS18.gene_allele_counts.tsv.gz",
+    "source_sha256": "876ef3be4aefca286c44662cc67c30ca57bbfb75c54964cbb00f3d58eb9d97a2",
+    "destination_sha256": "876ef3be4aefca286c44662cc67c30ca57bbfb75c54964cbb00f3d58eb9d97a2",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS2.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS2.gene_allele_counts.tsv.gz",
+    "source_sha256": "b1e811000c9bfac9374f2422b6f9738ec6f69122ed0f20ada6f3b5641a49e20d",
+    "destination_sha256": "b1e811000c9bfac9374f2422b6f9738ec6f69122ed0f20ada6f3b5641a49e20d",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS3.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS3.gene_allele_counts.tsv.gz",
+    "source_sha256": "048e20d0eaab927047904c26f88199e0c6fac0adf8609e69e30aee5a6353d786",
+    "destination_sha256": "048e20d0eaab927047904c26f88199e0c6fac0adf8609e69e30aee5a6353d786",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS4.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS4.gene_allele_counts.tsv.gz",
+    "source_sha256": "31323f14035512ac3fb017ed05d5a8572a36b0071c310ae44426e4d083603935",
+    "destination_sha256": "31323f14035512ac3fb017ed05d5a8572a36b0071c310ae44426e4d083603935",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS5.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS5.gene_allele_counts.tsv.gz",
+    "source_sha256": "0039fb84830332f2605d8dc9f98bb33d0c3fa7dba52a8b9656632402475b2a38",
+    "destination_sha256": "0039fb84830332f2605d8dc9f98bb33d0c3fa7dba52a8b9656632402475b2a38",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS6.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS6.gene_allele_counts.tsv.gz",
+    "source_sha256": "98d94d48716301735ecc70413b687148e8e3ecac33d0bee6b4ac1c0778d9fedf",
+    "destination_sha256": "98d94d48716301735ecc70413b687148e8e3ecac33d0bee6b4ac1c0778d9fedf",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS7.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS7.gene_allele_counts.tsv.gz",
+    "source_sha256": "4706ab8377b55c71ceef2f21e1fa767569966bd62c8caf0f1b52bce486a4cb36",
+    "destination_sha256": "4706ab8377b55c71ceef2f21e1fa767569966bd62c8caf0f1b52bce486a4cb36",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS8.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS8.gene_allele_counts.tsv.gz",
+    "source_sha256": "f98b60cd3113761363f2d29db19ec071a57afe1b471ce222a2f1d2d2f0370668",
+    "destination_sha256": "f98b60cd3113761363f2d29db19ec071a57afe1b471ce222a2f1d2d2f0370668",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/counts/MS9.gene_allele_counts.tsv.gz",
+    "destination": "data/ase/common4/MS9.gene_allele_counts.tsv.gz",
+    "source_sha256": "bcd4206bc1b42b4c4987149f1956f3ccaf70fb504d8c34e23b0d48514e880c30",
+    "destination_sha256": "bcd4206bc1b42b4c4987149f1956f3ccaf70fb504d8c34e23b0d48514e880c30",
+    "adaptation": "unchanged"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/statistics/differential_ase_MD_vs_MS.tsv",
+    "destination": "results/S6/differential_ASE_genewise_support3_all.tsv.gz",
+    "source_sha256": "a3c6f7cfa35137fb04b9e3c6500e4e6bb3d35d5506e4ad20507d15c7f424123a",
+    "destination_sha256": "2431c95ec162dc2aea50c9a7ad6a1c4e1b8e9d06d7bd48686cb6c3f5ae23f387",
+    "adaptation": "lossless gzip compression"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support3/calibrated/differential_ase_MD_vs_MS.tsv",
+    "destination": "results/S6/differential_ASE_shared_support3_all.tsv.gz",
+    "source_sha256": "2bbf768e6cb57acf5f207d5d630840bfb39869d1c866e90fe152a880bace0b2e",
+    "destination_sha256": "329ef46959592ecb10c05b96bdd66b1c552cdeb05363c97cdd17a1044a9baafe",
+    "adaptation": "lossless gzip compression"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/statistics/differential_ase_MD_vs_MS.tsv",
+    "destination": "results/S6/differential_ASE_genewise_support4_all.tsv.gz",
+    "source_sha256": "e67c68d93672358cde633d4752841e64b1fe0240b180c01139d279b4aada8b89",
+    "destination_sha256": "e61d73055c7c245041f84d8ace0483a398a01988ecaaf6c9f3378e89eda692d3",
+    "adaptation": "lossless gzip compression"
+  },
+  {
+    "source": "results/ase_final_2026-10-13/common_support4/calibrated/differential_ase_MD_vs_MS.tsv",
+    "destination": "results/S6/differential_ASE_shared_support4_all.tsv.gz",
+    "source_sha256": "fba6aa5d947d90c0d5cdbfbcedf348facd7fd0a28f321cdb41c86eb2ba8687c1",
+    "destination_sha256": "1acb0c33558e4408d20fc9f5ee23feb0adc3af412a5f86b8a757b57303781a45",
+    "adaptation": "lossless gzip compression"
+  },
+  {
+    "source": "analysis/tests/test_beta_binomial.py",
+    "destination": "tests/test_beta_binomial.py",
+    "source_sha256": "c2454bc76c1058f50ec292ebd6012a83f9b8026bd559ebb303af7245ef2af8fc",
+    "destination_sha256": "a1470baf9bae87fcf34daef234d7fa171bd5e3d021faa2ecd5b036d1f2bc0525",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "analysis/tests/test_final_ase_analysis.py",
+    "destination": "tests/test_final_ase_analysis.py",
+    "source_sha256": "ffc0e76afe4c9611a1cf0ba40d55dd449da3c8761fc8f21f0fd9e0f63a66b9a9",
+    "destination_sha256": "11b08909eaf67f6ba5952e03eb7baf9342c34f4171185adc38bd2bf81f9033d2",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "analysis/tests/gene_counter_fixture.gtf",
+    "destination": "tests/gene_counter_fixture.gtf",
+    "source_sha256": "d4bfa28c21df7015d19175fa9755e669823b802dc62c93e35d95bcf7ce7b584a",
+    "destination_sha256": "d4bfa28c21df7015d19175fa9755e669823b802dc62c93e35d95bcf7ce7b584a",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "analysis/tests/gene_counter_fixture.sam",
+    "destination": "tests/gene_counter_fixture.sam",
+    "source_sha256": "0a4403487c9f7b2574518e30c2b6934e155cf9f3b7cd31b58d41ec30dc440036",
+    "destination_sha256": "0a4403487c9f7b2574518e30c2b6934e155cf9f3b7cd31b58d41ec30dc440036",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "analysis/tests/gene_counter_fixture.vcf",
+    "destination": "tests/gene_counter_fixture.vcf",
+    "source_sha256": "3c2b8e2852a73db4ab6c78e6a3ec04737a5f7aaa72cdcc11bbceb543a0778eba",
+    "destination_sha256": "3c2b8e2852a73db4ab6c78e6a3ec04737a5f7aaa72cdcc11bbceb543a0778eba",
+    "adaptation": "portable paths / documented extraction"
+  },
+  {
+    "source": "analysis/scripts/plot_qpcr_publication.py",
+    "destination": "pipeline/scripts/reproduce_qpcr.py",
+    "source_sha256": "10c7172f48f39166137ccc16baeef8637f51388929225bc1173b2fb921f246d8",
+    "destination_sha256": "c911e92d8598394b5db0c503dcd45a55c9a9eb3adb1200f659512cc5a4a7f4fe",
+    "adaptation": "Extracted statistical and permutation functions; added CLI and 27-gene Ct verification; BH family names reflect 135 panels."
+  }
+]

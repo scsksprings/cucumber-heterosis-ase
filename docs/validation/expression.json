@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "expression_gene_context_records": 177202,
+  "fruit_interaction_records": 110994,
+  "PCA_subsets": [
+    "all",
+    "fruit"
+  ],
+  "qPCR_RNAseq_effects_checked": 810,
+  "numerical_tolerance": "DESeq2 rtol=1e-6, atol=1e-8; PCA allows whole-axis sign flip"
+}

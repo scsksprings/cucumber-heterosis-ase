@@ -1,0 +1,3 @@
+cross	informative_snps	pass_vcf_snps_examined	reject_C_discordant_parent_calls	reject_C_heterozygous_high_quality_call	reject_C_insufficient_parent_support	reject_D_discordant_parent_calls	reject_D_heterozygous_high_quality_call	reject_D_insufficient_parent_support	reject_S_discordant_parent_calls	reject_S_heterozygous_high_quality_call	reject_S_insufficient_parent_support	reject_same_parent_allele	min_dp	min_gq	min_allele_fraction	min_supporting_samples
+CD	8040	199990	1	4658	139353	32	6657	8488	0	0	0	32761	10	30.0	0.95	3
+CS	28973	199990	1	4658	139353	0	0	0	144	5526	8182	13153	10	30.0	0.95	3

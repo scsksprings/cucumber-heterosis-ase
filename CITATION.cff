@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and identify the repository version used."
+type: software
+title: "Yield heterosis and allele-specific expression in two cucumber hybrids sharing a maternal parent"
+authors:
+  - family-names: Yang
+    given-names: Zonghui
+  - family-names: Li
+    given-names: Libin
+  - family-names: Meng
+    given-names: Zhaojuan
+  - family-names: Zhu
+    given-names: Lixia
+  - family-names: Cao
+    given-names: Qiwei
+abstract: "Analysis code and processed data for the 2026-10-26 cucumber heterosis manuscript, including phenotype models, expression departures, allele-specific expression and qRT-PCR concordance."
+keywords:
+  - cucumber
+  - heterosis
+  - RNA-seq
+  - allele-specific expression
+  - reproducibility
+repository-code: "https://github.com/scsksprings/cucumber-heterosis-ase"

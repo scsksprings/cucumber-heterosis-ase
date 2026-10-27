@@ -1,0 +1,505 @@
+{
+  "all_unchanged_from_uploaded_repository": true,
+  "files": [
+    {
+      "path": "data/phenotype/block_observations.csv",
+      "bytes": 328,
+      "sha256": "6f3c5939568b33746167e60189d115cbf92c37c2b7048f1422f6846681c75a2a"
+    },
+    {
+      "path": "results/S1/PCA_all_scores.tsv",
+      "bytes": 4308,
+      "sha256": "ff0bdd6632e4087b64378731d360fb8cce3858ecb665f17988c404160d5f9cc8"
+    },
+    {
+      "path": "results/S1/PCA_all_top500_genes.tsv",
+      "bytes": 7510,
+      "sha256": "662dd95e26a674b61b2a3cb95f84842b8218a5cbc35c4dc2a2bd616fe9095757"
+    },
+    {
+      "path": "results/S1/PCA_fruit_scores.tsv",
+      "bytes": 2533,
+      "sha256": "89a82ef81caec9f2963a54cb2c6e4bc38b06d6447abbcaa0346c5eb7e2884baa"
+    },
+    {
+      "path": "results/S1/PCA_fruit_top500_genes.tsv",
+      "bytes": 7510,
+      "sha256": "367ba7329f3cc60aae6732586034119579352e93c7505b02eae4f80d7a3eff13"
+    },
+    {
+      "path": "results/S1/S1_sample_code_key.tsv",
+      "bytes": 242,
+      "sha256": "d0cb9d4ef946c8e09674b93b809993f303b52b77c30e70080c1763316d508e26"
+    },
+    {
+      "path": "results/S1/S1_sample_manifest.tsv",
+      "bytes": 1980,
+      "sha256": "75808f1a819b3ecc9e1390963907aec9839db2a170ea0f40188923b77fa99906"
+    },
+    {
+      "path": "results/S1/TableS4_alignment_QC.tsv",
+      "bytes": 12743,
+      "sha256": "97653b60f62968d1ba362512d7210fbbce0b75c106d7de4caeb895503b034324"
+    },
+    {
+      "path": "results/S1.xlsx",
+      "bytes": 38796,
+      "sha256": "417acf6c4283c2030e4b53013d015155c399427d85b6d84bdd94b3b39191d2fe"
+    },
+    {
+      "path": "results/S2/ANOVA.tsv",
+      "bytes": 986,
+      "sha256": "6a22be114743500ac02637eabab1074c61c12cd43bd73658ad17192c8b5af647"
+    },
+    {
+      "path": "results/S2/S2_BPH检验口径与显性度复核.tsv",
+      "bytes": 1075,
+      "sha256": "0d12da6cf33b347dde0b3edc418d0a81a39cd89855914ba6efba6238c08847a0"
+    },
+    {
+      "path": "results/S2/S2_LSD字母30对核验.tsv",
+      "bytes": 1480,
+      "sha256": "88ddd94cd70f051ce0f73ee84d5c655e8d0692415b4c5a9a83e89ac14d3cbcf1"
+    },
+    {
+      "path": "results/S2/S2_cumulative_harvest_observations.tsv",
+      "bytes": 16680,
+      "sha256": "3b79d82957e89fc915d1c504ef50fbaae4581175690193e63aefdbdf8b998441"
+    },
+    {
+      "path": "results/S2/S2_cumulative_heterosis_descriptive.tsv",
+      "bytes": 3859,
+      "sha256": "1209bf5d428978baa6f5434e005dfdce23787bdf51207a5e095e6ab5ec9a8e9b"
+    },
+    {
+      "path": "results/S2/S2_heterosis_sensitivity.tsv",
+      "bytes": 4837,
+      "sha256": "19bd22a38164ac3fee210f1012997ff4bcfbd6f0b23dad77abddd298634ca018"
+    },
+    {
+      "path": "results/S2/S2_heterosis_two_sided.tsv",
+      "bytes": 2983,
+      "sha256": "67aa297b791d0a32b8588afee4b13a1a81523f3d1460297de2c1becac9943df8"
+    },
+    {
+      "path": "results/S2/S2_乘积基线分解复核.tsv",
+      "bytes": 749,
+      "sha256": "5289c7ada2d7a1fec77d1d9bdd69eb125c3dc34454df79e6b1693a0300c59612"
+    },
+    {
+      "path": "results/S2/S2_乘积比值逐区组敏感性.tsv",
+      "bytes": 434,
+      "sha256": "ded941cc69693e995d28c86816e0050dc6fa6611a1bd290117fca73e80d875f0"
+    },
+    {
+      "path": "results/S2/区组观测.tsv",
+      "bytes": 2242,
+      "sha256": "5d909b670e21af626a2929beab4caba3caf3d51d0c8a35eb4ff2861ac47145f8"
+    },
+    {
+      "path": "results/S2/杂种优势敏感性.tsv",
+      "bytes": 10999,
+      "sha256": "980b3675e6d9dae2ea104961081e9ba9a1a40006c736fcf23956ef620b8d6d6c"
+    },
+    {
+      "path": "results/S2/果长原始记录.tsv",
+      "bytes": 3854,
+      "sha256": "a1715ef24d4a9b912357e4c9ac4ca9acceab970650ff1e72896668b9192d7567"
+    },
+    {
+      "path": "results/S2/果长描述汇总.tsv",
+      "bytes": 537,
+      "sha256": "27d6ecd867ab70dfd660b70e3d5c6f4d4101dc30a793a5fab02e4d15b5eae640"
+    },
+    {
+      "path": "results/S2/调整均值.tsv",
+      "bytes": 1809,
+      "sha256": "bea6f7aef89f36eeac8781151718d9b416349510967962c94cdbad036684c61e"
+    },
+    {
+      "path": "results/S2/逐次采收记录.tsv",
+      "bytes": 18602,
+      "sha256": "3afc460c000f0d71dccc6ea9ad991130fb1f2755c756e1412d7ae56c95b70de0"
+    },
+    {
+      "path": "results/S2.xlsx",
+      "bytes": 64452,
+      "sha256": "d3fe814529af41e86f232cecd4e916ecf9bca796830d486474ce76f533f6129b"
+    },
+    {
+      "path": "results/S3/Fig3B_displayed_terms.tsv",
+      "bytes": 3911,
+      "sha256": "24d93ea8a102b7851fbbbca8909ca2eaf4ab541e612392ad50592e0fb476a6bf"
+    },
+    {
+      "path": "results/S3/Fig3C_gene_effects.tsv",
+      "bytes": 10909,
+      "sha256": "a9cef012746d5e9056354859b359375dae582891e827c16286dafd553ba46030"
+    },
+    {
+      "path": "results/S3/S3_antenna_enrichment_comparison.tsv",
+      "bytes": 1113,
+      "sha256": "8b484c9c147653d58d52c11a1dfef71259f61afab1e3d6f57eee5ada98d100d6"
+    },
+    {
+      "path": "results/S3/S3_antenna_genes_MD_MS_FL.tsv",
+      "bytes": 29499,
+      "sha256": "53edd726868d28d37fb38c5fb4289ec69d657d385ef3954fd1549f6fb7c2e386"
+    },
+    {
+      "path": "results/S3/S3_eight_MD_antenna_genes.tsv",
+      "bytes": 12633,
+      "sha256": "655e19e9cca0112279710423a6428af0cb8ca73fe1c8483158a0fbf4705051f4"
+    },
+    {
+      "path": "results/S3/S3_expression_departure_events.tsv.gz",
+      "bytes": 406416,
+      "sha256": "53da5bca25d556a2dfb0e7d37d420202b2c46b300b4732aaa947d3f37d14f3cd"
+    },
+    {
+      "path": "results/S3/S3_expression_inheritance_all.tsv.gz",
+      "bytes": 13188721,
+      "sha256": "875a16a1bccaf2000ee20b774529468b626d6f85ddf2e1c10795df41c29b6b51"
+    },
+    {
+      "path": "results/S3/S3_expression_inheritance_summary.tsv",
+      "bytes": 2475,
+      "sha256": "063210e41ad628d626693d865fa009ef565bd64f20d1519c423f7c5fa5fa45bf"
+    },
+    {
+      "path": "results/S3/S3_leaf_overlap_all_tested.tsv.gz",
+      "bytes": 3446533,
+      "sha256": "728daa5a096676096f9cfaeee815e1942ef7370bd7016866afc8a1cf6716a95a"
+    },
+    {
+      "path": "results/S3/S3_leaf_overlap_called_genes.tsv",
+      "bytes": 1593691,
+      "sha256": "72a1a0f204360d5da89c56fcd2b6c3752f651ed7758c08887035b22a3fb7e2f3"
+    },
+    {
+      "path": "results/S3/S3_leaf_overlap_directions.tsv",
+      "bytes": 120,
+      "sha256": "87e62cd3ca31e040f87d67b014f760528641094ed343dace41be47554542cad8"
+    },
+    {
+      "path": "results/S3/S3_leaf_overlap_summary.tsv",
+      "bytes": 206,
+      "sha256": "f8550342398d6b1d944baa2f20f5453eac1dc2050425f6648f50e5c7a436e162"
+    },
+    {
+      "path": "results/S3/S3_shared_direction_enrichment.tsv",
+      "bytes": 228178,
+      "sha256": "128c400a6073dc97e3c998b2e612c11de30aac58ab1b9e80784230477c62d8a2"
+    },
+    {
+      "path": "results/S3/TableS5_expression_summary.tsv",
+      "bytes": 1170,
+      "sha256": "04403cc6c9ea62adb0dce770dfaef9a00e0cafea2b7caabce1b03618c5d5e664"
+    },
+    {
+      "path": "results/S3/enrichment_gene_sets_and_backgrounds.tsv.gz",
+      "bytes": 4297691,
+      "sha256": "655310851df809b9a63e3ab121b07a60242119a266943a09342a6bf2d04df67b"
+    },
+    {
+      "path": "results/S3/functional_annotation_coverage.tsv",
+      "bytes": 3901,
+      "sha256": "3d9483ef0596d36ec99d64b9eba2312f7b17be36e947451e43acbb92c2a2870b"
+    },
+    {
+      "path": "results/S3/functional_enrichment_all_tests.tsv.gz",
+      "bytes": 233346,
+      "sha256": "7cfc411b3a74549f8bc77b1cbf71bc14e00bf3952db3219b33e06e9db8d7009e"
+    },
+    {
+      "path": "results/S3/functional_enrichment_significant.tsv",
+      "bytes": 41161,
+      "sha256": "9907af123fb540fb09afc60e692c31e01e05270409ba7e1257c60e44a7d884af"
+    },
+    {
+      "path": "results/S3/functional_enrichment_summary.tsv",
+      "bytes": 835,
+      "sha256": "e3ce3b3827420142fd6fd23f10d0f9e8abd64e707166ba39477971d5d806172f"
+    },
+    {
+      "path": "results/S3/functional_term_to_gene.tsv.gz",
+      "bytes": 308661,
+      "sha256": "2bbabd996fc3ffd1dde24043714d667bdd9537083a4289014553eff39e447963"
+    },
+    {
+      "path": "results/S3.xlsx",
+      "bytes": 2286035,
+      "sha256": "20982354a5789a5888b2a1e837a131f0b609fb29f2f517a1e854cbb9a1e940c8"
+    },
+    {
+      "path": "results/S4/FigS6_displayed_terms.tsv",
+      "bytes": 1885,
+      "sha256": "b63aae3163b61f65cb20b3cdd1de9232862f0e23385cd32634252e45ec53c8d4"
+    },
+    {
+      "path": "results/S4/S4_fruit_stage_interactions_all.tsv.gz",
+      "bytes": 5993638,
+      "sha256": "786954572e8047e526eba760dea5f8b15b98eec14c57679ea2a8f33684bc6a16"
+    },
+    {
+      "path": "results/S4/TableS6_fruit_interactions.tsv",
+      "bytes": 369,
+      "sha256": "041991a1b8337ff4b1adf0e8e0585f22a592a2a212009661eee34dbc9812e144"
+    },
+    {
+      "path": "results/S4/enrichment_gene_sets_and_backgrounds.tsv.gz",
+      "bytes": 4297691,
+      "sha256": "655310851df809b9a63e3ab121b07a60242119a266943a09342a6bf2d04df67b"
+    },
+    {
+      "path": "results/S4.xlsx",
+      "bytes": 578988,
+      "sha256": "13fdf22f886715e846fba4cb8400dadde5a892056fe294030ebd5eeb5b3ad6d9"
+    },
+    {
+      "path": "results/S5/TableS17_shared_SNP_selection.tsv",
+      "bytes": 194,
+      "sha256": "2bdf39b0a19ec02c0f8c887aebd6955b36a410b378a32ed670fadc4d7ea52bf3"
+    },
+    {
+      "path": "results/S5/TableS23_parental_SNP_selection.tsv",
+      "bytes": 599,
+      "sha256": "b1361e261dde484a1e4e6d732bc00f1cd2f685e5e0cf213a109dc30f6c923f79"
+    },
+    {
+      "path": "results/S5/shared_informative_snps.vcf.gz",
+      "bytes": 704514,
+      "sha256": "90f0155ae5cf4604506cfd703583171aa0868631f4a82d8aac90a9bf8d82a439"
+    },
+    {
+      "path": "results/S5/support4_shared_informative_snps.vcf.gz",
+      "bytes": 687263,
+      "sha256": "5d43e125968d97c0989ea1cbd089bb415f0c8e3b51bfd2f61beb604d75c90228"
+    },
+    {
+      "path": "results/S5.xlsx",
+      "bytes": 6493,
+      "sha256": "58e4f5dea3fbf2ae82730e119edcaa05cf87b6ceca286a1b61de0f72c383f859"
+    },
+    {
+      "path": "results/S6/S6_null_design_subconditions.tsv",
+      "bytes": 7364,
+      "sha256": "893d94bf7154e8c2762499805e46385ea278f044ca7860e81e59d683ef7784b0"
+    },
+    {
+      "path": "results/S6/S6_null_family_index_40.tsv",
+      "bytes": 15271,
+      "sha256": "88e406975ddc42269e0cfcc3b68d1c350e0c348ed82975152d6e4dd77a562cd1"
+    },
+    {
+      "path": "results/S6/S6_shared_model_35_events.tsv",
+      "bytes": 25842,
+      "sha256": "51f061d41f371a8246a9503813ac94d5c531cb7b32641efe8da4915c9bf6dedd"
+    },
+    {
+      "path": "results/S6/TableS11_ASE_model_diagnostics.tsv",
+      "bytes": 3740,
+      "sha256": "df5ba1ef543bc7da9826c17026764cafffd3382f99de97fbb786806f6f2d8e48"
+    },
+    {
+      "path": "results/S6/TableS12_null_calibration_diagnostics.tsv",
+      "bytes": 5682,
+      "sha256": "50af28f725053d586178c44c0ab65e2e41ac18017c6774eb2866cd438755154b"
+    },
+    {
+      "path": "results/S6/TableS13_parent_support_sensitivity.tsv",
+      "bytes": 361453,
+      "sha256": "8fcd871763a32d25451cd0d2eab3d3f401f26e56a499bbea1f98795e239800d8"
+    },
+    {
+      "path": "results/S6/TableS20_complete_MLE_ASE.tsv.gz",
+      "bytes": 3008263,
+      "sha256": "a686777e005279e7609a93b655e13551f5b4df11702853aa56c6b9f8965d7e5c"
+    },
+    {
+      "path": "results/S6/TableS21_complete_shared_ASE.tsv.gz",
+      "bytes": 5107085,
+      "sha256": "437ec0f00f1fb504783b837eeda0dcaf152df98250b482d826f728836ac6dd48"
+    },
+    {
+      "path": "results/S6/TableS24_shared_dispersion_estimates.tsv",
+      "bytes": 10491,
+      "sha256": "c7e6d3d91a8c9b641f33743e5a296e170b882c9841a21f138e85964ed6fc6d6a"
+    },
+    {
+      "path": "results/S6/TableS7_jointly_testable_ASE.tsv",
+      "bytes": 840,
+      "sha256": "35745751b4649e8c46679a988316988dd8557692c30f80283c7d801f339d2566"
+    },
+    {
+      "path": "results/S6.xlsx",
+      "bytes": 46083,
+      "sha256": "7c1dfba8cb46be2084b7d65907a0f84b71d4b441c676df585f49ecdd33666b98"
+    },
+    {
+      "path": "results/S7/Fig5_information_band.tsv",
+      "bytes": 1173,
+      "sha256": "92c954edede7623128a204be0c46c3afe08c17bb5ffa1fd4d2cd32ba66f52ef8"
+    },
+    {
+      "path": "results/S7/Fig5_q_values_from_TableS13.tsv",
+      "bytes": 530,
+      "sha256": "973cbb69909a59bb375a5133be000b21d1ece7109a55c304a619abd6c0dacabd"
+    },
+    {
+      "path": "results/S7/FigS2_values.tsv",
+      "bytes": 785,
+      "sha256": "bd6474ba3d1cc0b95e245236c1e12ffee2d41dcb21002a85305facca3ee07b94"
+    },
+    {
+      "path": "results/S7/S7_ASE_same_context_total_expression.tsv",
+      "bytes": 4468,
+      "sha256": "2ada397f49c6c184802bd3da0b100c91c9eead319a13304f32684af4f79e811a"
+    },
+    {
+      "path": "results/S7/S7_ASE_total_expression_call_summary.tsv",
+      "bytes": 164,
+      "sha256": "cd1abe7a8c0297bf8630ea018774a5cb3631d5dda08b5a4cbbbfaee997e44899"
+    },
+    {
+      "path": "results/S7/S7_core_ASE_annotated_evidence.tsv",
+      "bytes": 3960,
+      "sha256": "3b3812aad98ba52f881480490675e131dcc81012a042add65b5e8623f0f58e80"
+    },
+    {
+      "path": "results/S7/S7_core_ASE_two_model_full.tsv",
+      "bytes": 8230,
+      "sha256": "de0afaa65bd869497e2b17031455a2d79853a75da65fa95458ff06e273c9d78d"
+    },
+    {
+      "path": "results/S7/S7_core_genes_expression_all_contexts.tsv",
+      "bytes": 19653,
+      "sha256": "1ba9d4b77cc9ada42678cec8fd926deda3247fce476fd9b73a2052e9d7a316bb"
+    },
+    {
+      "path": "results/S7/TableS18_site_consistency.tsv",
+      "bytes": 1248123,
+      "sha256": "d16b67c2a0f83c2843f072d67e4938533740447246ab38edc4d88841882b5fb6"
+    },
+    {
+      "path": "results/S7/TableS9_representative_fragment_counts.tsv",
+      "bytes": 3747,
+      "sha256": "e8c9145f57d343ebdea4458baf191777d2773d162a3240a4643670c682bba767"
+    },
+    {
+      "path": "results/S7.xlsx",
+      "bytes": 37590,
+      "sha256": "2464c0ad6fea8716fe783f177dcedd14b77003f8850c873aaf1a053780d0df0b"
+    },
+    {
+      "path": "results/S8/S8_excluded_effects.tsv",
+      "bytes": 6140,
+      "sha256": "8d07e29a14f82ffe5efe8250ec10b3117dc099602aac5f1192f060ad9c926594"
+    },
+    {
+      "path": "results/S8/S8_exclusion_by_gene_context.tsv",
+      "bytes": 993,
+      "sha256": "a62814814c97771bfba2d9de701fb7fa22f7e11e9a461d889768b2fffa5ccc8b"
+    },
+    {
+      "path": "results/S8/S8_gene_context_coverage.tsv",
+      "bytes": 5394,
+      "sha256": "f5006fcc8b240d037ba6c63abdbdff9f27cdc4dbf78792d3e3f023b563b211b8"
+    },
+    {
+      "path": "results/S8/S8_midparent_pair_inclusion.tsv",
+      "bytes": 87786,
+      "sha256": "006cbce49f8790d2e15ad354cf0f1c883a6da324fa160ef13fdd008e58a24de4"
+    },
+    {
+      "path": "results/S8/S8_pair_inclusion_flow.tsv",
+      "bytes": 488,
+      "sha256": "df3c53baadfa225829ccfb0a29eaf73dd08f6a588cfafe52f3452da11443fb09"
+    },
+    {
+      "path": "results/S8/S8_parental_pair_inclusion.tsv",
+      "bytes": 113348,
+      "sha256": "a9c7e06e7349c0a14652db7e185c9ba08dcd0f79ec16ec054f7dde5a2abe4d4a"
+    },
+    {
+      "path": "results/S8/S8_qPCR_primer_sequences.tsv",
+      "bytes": 7987,
+      "sha256": "712f9e88808109ca60b35eb4e8ef42557dd1c9524cf1e2df89f4a6915f13ad39"
+    },
+    {
+      "path": "results/S8/qPCR_RNAseq_block_permutation_strata.tsv",
+      "bytes": 20048,
+      "sha256": "d43143600f83b379ae0f68908538940ea3ccb844999fe9d66dbc7d08d2a6395b"
+    },
+    {
+      "path": "results/S8/qPCR_RNAseq_concordance_summary.tsv",
+      "bytes": 1193,
+      "sha256": "8bb917d641a6d53bfccf8f4accc5bbcf7ae12c7d71ecb8a415f4481a501decf2"
+    },
+    {
+      "path": "results/S8/qPCR_RNAseq_log_midparent_comparison.tsv",
+      "bytes": 63497,
+      "sha256": "271bd393e3af7055ca371fb5894147a9b887f133078f5f216d5d52098cc73591"
+    },
+    {
+      "path": "results/S8/qPCR_RNAseq_parental_effect_comparison.tsv",
+      "bytes": 65495,
+      "sha256": "d5de22e69b33b73f9537f797841b0841d8e4d39cde9fd7bca349c693faf4a561"
+    },
+    {
+      "path": "results/S8/qPCR_Welch_ANOVA.tsv",
+      "bytes": 14780,
+      "sha256": "d270cee54189841ab2cc08b9403166eeb8c674c3581452c2bb546f6ecbe1cc5a"
+    },
+    {
+      "path": "results/S8/qPCR_all_pairwise_Games_Howell.tsv",
+      "bytes": 217231,
+      "sha256": "1569db40e1036cbc67d1623dd787a47721c1df3cbeb9db1eca5c71de11fd9100"
+    },
+    {
+      "path": "results/S8/qPCR_biological_replicate_values.tsv",
+      "bytes": 503189,
+      "sha256": "61752bc5bf2fa9275d7c8fc1b4ee16419e85b6f02d75fec427200615f14e7862"
+    },
+    {
+      "path": "results/S8/qPCR_group_summary_and_letters.tsv",
+      "bytes": 80820,
+      "sha256": "ae69b9af772b20512dfc816599e79ad234a645ca9fdc4311c1afbbb711dd5fce"
+    },
+    {
+      "path": "results/S8.xlsx",
+      "bytes": 621479,
+      "sha256": "f156e07a122088dced445e3a0187956cbb08df1e9ab6ca5530647b790a7ae480"
+    },
+    {
+      "path": "figures/inputs/fruit_canvas.png",
+      "bytes": 1234927,
+      "sha256": "a01ac56990c5e01b19036cda8470c943b7ac5fc6d7ddc88f01f10905d8be22b2"
+    },
+    {
+      "path": "figures/inputs/fruit_pos.json",
+      "bytes": 107,
+      "sha256": "fdfdb16a703b7bbdb165ec339e4aac0345305c1a29225e4f2ee2cf2a49d66b97"
+    },
+    {
+      "path": "figures/fonts/NotoSansSCtt-Bold.ttf",
+      "bytes": 13848528,
+      "sha256": "233618c97c55822cb4ecd9e6dcd2a10accf7234b512cc29a8d7c8e77da5a1683"
+    },
+    {
+      "path": "figures/fonts/NotoSansSCtt-Regular.ttf",
+      "bytes": 14072476,
+      "sha256": "1a1e32c9f6114087d998d32b4b1dad88adc087bfaf2c7b8a961b071413cd269e"
+    },
+    {
+      "path": "figures/fonts/OFL.txt",
+      "bytes": 4410,
+      "sha256": "79b292d3b84aa6b4cf7aac07538ca0be5f33e1098a1e2414de5ed59790996b50"
+    },
+    {
+      "path": "figures/fonts/make_fonts.py",
+      "bytes": 2043,
+      "sha256": "02c0bdd4d8552334a240f0d4fa7666d6ad4a9c836573f13100dbeb83970784af"
+    }
+  ]
+}

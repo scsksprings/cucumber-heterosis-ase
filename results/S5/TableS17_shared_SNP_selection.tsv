@@ -1,0 +1,3 @@
+minimum_parent_support	exact_allele_intersection	retained_same_allele_single_gene_snps	no_exonic_gene	multiple_genes	insufficient_parent_support
+3	3673	2348	1238	87	0.0
+4	3673	2273	982	86	332.0

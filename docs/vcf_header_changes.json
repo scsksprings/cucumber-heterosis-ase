@@ -1,0 +1,14 @@
+[
+  {
+    "file": "results/S5/support4_shared_informative_snps.vcf.gz",
+    "change": "Normalize server-specific paths in VCF metadata only; all variant and genotype records unchanged.",
+    "original_sha256": "5d43e125968d97c0989ea1cbd089bb415f0c8e3b51bfd2f61beb604d75c90228",
+    "release_sha256": "8a6aacac41d4bd68482b52d52826190b5a70d646b1b095583cf0ff94261c7437"
+  },
+  {
+    "file": "results/S5/shared_informative_snps.vcf.gz",
+    "change": "Normalize server-specific paths in VCF metadata only; all variant and genotype records unchanged.",
+    "original_sha256": "90f0155ae5cf4604506cfd703583171aa0868631f4a82d8aac90a9bf8d82a439",
+    "release_sha256": "23795bf7cdfca1a6e9360d630916be3d0a6645dfb03e4b54c2c44582267bb2f3"
+  }
+]

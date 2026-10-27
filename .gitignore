@@ -1,0 +1,39 @@
+# Regenerated artifacts and local runtime state
+figures/output/
+tables/output/
+work/
+.cache/
+.snakemake/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.DS_Store
+.venv/
+.venv-*/
+venv/
+# Machine-specific configuration and credentials
+pipeline/config.local.yaml
+.env
+.env.*
+.private/
+*.pem
+*.key
+# Manuscripts, raw sequencing data, reference genomes and large intermediates
+*.docx
+*.doc
+~$*
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+# The tiny SAM fixture in tests/ is intentionally included.
+*.sam
+!tests/*_fixture.sam
+data/Cleandata/
+data/reference/

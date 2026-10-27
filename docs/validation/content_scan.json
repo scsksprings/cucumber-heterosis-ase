@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "revision": "20261026b",
+  "release_files_excluding_checksum_manifest": 294,
+  "files_scanned": 291,
+  "findings": 0,
+  "scope": "Targeted token/private-key patterns and original account filesystem path in text, gzip and XLSX XML; not proof against every possible secret."
+}

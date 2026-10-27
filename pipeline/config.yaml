@@ -1,0 +1,32 @@
+project_root: .
+manifest: data/rnaseq/sample_metadata.tsv
+reference_fasta: data/reference/ChineseLong_genome_v3.fa
+reference_gff3: data/reference/ChineseLong_gene_gff3_v3
+output_root: work/upstream
+threads:
+  star_index: 16
+  star_align: 8
+  fastqc: 4
+star:
+  sjdb_overhang: 149
+  genome_sa_index_nbases: 12
+  out_filter_multimap_nmax: 10
+  out_filter_mismatch_nover_lmax: 0.04
+  align_intron_min: 20
+  align_intron_max: 20000
+  align_mates_gap_max: 20000
+ase_filters:
+  parent_min_depth: 10
+  parent_min_allele_fraction: 0.95
+  parent_min_supporting_samples: 3
+  genotype_quality: 30
+  mapping_quality: 30
+  base_quality: 20
+  f1_sample_min_depth: 10
+  gene_group_min_depth: 30
+  gene_replicate_min_depth: 5
+  gene_min_covered_replicates: 2
+  fdr: 0.05
+  min_allelic_ratio: 2.0
+  differential_min_log2_ratio: 1.0
+  exclude_multigene_snps: true

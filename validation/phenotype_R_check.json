@@ -1,0 +1,153 @@
+[
+  {
+    "file": "c22_A.csv",
+    "rows": 9,
+    "keys_identical": true,
+    "generated_columns": [
+      "df",
+      "SS",
+      "MS",
+      "F",
+      "P",
+      "n_obs"
+    ],
+    "frozen_columns": [
+      "df",
+      "SS",
+      "MS",
+      "F",
+      "P"
+    ],
+    "columns": [
+      {
+        "column": "df",
+        "equivalent": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "column": "SS",
+        "equivalent": true,
+        "max_absolute_difference": 3.4924596548080444e-10
+      },
+      {
+        "column": "MS",
+        "equivalent": true,
+        "max_absolute_difference": 3.4924596548080444e-10
+      },
+      {
+        "column": "F",
+        "equivalent": true,
+        "max_absolute_difference": 1.3642420526593924e-11
+      },
+      {
+        "column": "P",
+        "equivalent": true,
+        "max_absolute_difference": 1.9095836023552692e-14
+      }
+    ]
+  },
+  {
+    "file": "c22_M.csv",
+    "rows": 15,
+    "keys_identical": true,
+    "generated_columns": [
+      "lsmean",
+      "SE",
+      "n",
+      "LSD_letter"
+    ],
+    "frozen_columns": [
+      "lsmean",
+      "SE",
+      "n",
+      "LSD_letter"
+    ],
+    "columns": [
+      {
+        "column": "lsmean",
+        "equivalent": true,
+        "max_absolute_difference": 4.547473508864641e-12
+      },
+      {
+        "column": "SE",
+        "equivalent": true,
+        "max_absolute_difference": 4.263256414560601e-14
+      },
+      {
+        "column": "n",
+        "equivalent": true,
+        "max_absolute_difference": 0.0
+      },
+      {
+        "column": "LSD_letter",
+        "identical": true,
+        "generated_values": [
+          "a",
+          "d",
+          "b",
+          "c",
+          "e",
+          "d",
+          "c",
+          "c",
+          "b",
+          "a",
+          "d",
+          "d",
+          "c",
+          "a",
+          "b"
+        ],
+        "frozen_values": [
+          "a",
+          "d",
+          "b",
+          "c",
+          "e",
+          "d",
+          "c",
+          "c",
+          "b",
+          "a",
+          "d",
+          "d",
+          "c",
+          "a",
+          "b"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "c22_Mult.csv",
+    "rows": 2,
+    "keys_identical": true,
+    "generated_columns": [
+      "yield_F1",
+      "yield_MP",
+      "yield_expected_from_component_MPs"
+    ],
+    "frozen_columns": [
+      "yield_F1",
+      "yield_MP",
+      "yield_expected_from_component_MPs"
+    ],
+    "columns": [
+      {
+        "column": "yield_F1",
+        "equivalent": true,
+        "max_absolute_difference": 5.002220859751105e-12
+      },
+      {
+        "column": "yield_MP",
+        "equivalent": true,
+        "max_absolute_difference": 9.094947017729282e-13
+      },
+      {
+        "column": "yield_expected_from_component_MPs",
+        "equivalent": true,
+        "max_absolute_difference": 3.865352482534945e-12
+      }
+    ]
+  }
+]

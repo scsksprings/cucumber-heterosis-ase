@@ -1,0 +1,7 @@
+##fileformat=VCFv4.2
+##contig=<ID=chr1,length=1000>
+##INFO=<ID=MAT_ALLELE,Number=1,Type=Integer,Description="Maternal allele index">
+##INFO=<ID=PAT_ALLELE,Number=1,Type=Integer,Description="Paternal allele index">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	100	.	A	G	100	PASS	MAT_ALLELE=0;PAT_ALLELE=1
+chr1	110	.	C	T	100	PASS	MAT_ALLELE=0;PAT_ALLELE=1

@@ -1,0 +1,19 @@
+{
+  "generated": "/workspace/scratch/7c0cc9aa5cf0/style_20261026/final_clean/qa/fig1_from_R/Fig1_yield_components.png",
+  "delivered": "/workspace/scratch/7c0cc9aa5cf0/style_20261026/metadata_cleanup/delivery/正文图/Fig1_yield_components.png",
+  "generated_shape": [
+    4334,
+    3504,
+    4
+  ],
+  "delivered_shape": [
+    4334,
+    3504,
+    4
+  ],
+  "pixel_identical": true,
+  "different_channels": 0,
+  "max_channel_difference": 0,
+  "plot_object_data_equivalent": true,
+  "display_text_identical": true
+}

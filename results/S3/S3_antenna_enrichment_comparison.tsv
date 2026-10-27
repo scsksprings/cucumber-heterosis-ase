@@ -1,0 +1,5 @@
+set	hybrid	context	direction	database	term_id	term_name	aspect	background_n	selected_n	term_background_n	overlap_n	gene_ratio	fold_enrichment	odds_ratio	pvalue	raw_p_background_n	raw_p_background_term_n	p_raw_p_background	gene_ids	q_BH	q_raw_p_background_same_terms	q_global_sensitivity
+MD_FL	MD	fruiting_leaf	negative	KEGG	ko00196	Photosynthesis - antenna proteins	pathway	3549	192	20	0	0.0	0.0	0.0	1.0	3549	20	1.0		1.0	1.0	1.0
+MD_FL	MD	fruiting_leaf	positive	KEGG	ko00196	Photosynthesis - antenna proteins	pathway	3549	141	20	8	0.05673758865248227	10.068085106382979	17.022556390977442	4.2855513031048473e-07	3549	20	4.2855513031048473e-07	CsaV3_1G002410;CsaV3_1G005600;CsaV3_3G005950;CsaV3_5G025740;CsaV3_5G030270;CsaV3_5G039350;CsaV3_6G051520;CsaV3_6G051530	2.5284752688318598e-05	2.5284752688318598e-05	0.00019031929263217052
+MS_FL	MS	fruiting_leaf	negative	KEGG	ko00196	Photosynthesis - antenna proteins	pathway	3549	69	20	0	0.0	0.0	0.0	1.0	3549	20	1.0		1.0	1.0	1.0
+MS_FL	MS	fruiting_leaf	positive	KEGG	ko00196	Photosynthesis - antenna proteins	pathway	3549	86	20	0	0.0	0.0	0.0	1.0	3549	20	1.0		1.0	1.0	1.0

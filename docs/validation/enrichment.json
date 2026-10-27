@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "families": 20,
+  "tests": 11608,
+  "local_significant": 83,
+  "verified": "All term memberships, hypergeometric P, family BH and global BH match the manuscript snapshot."
+}

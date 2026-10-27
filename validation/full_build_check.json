@@ -1,0 +1,235 @@
+{
+  "original_R_chain_completed": true,
+  "figures": [
+    {
+      "file": "figures/output/Fig1_yield_components.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3504,
+      "height": 4334,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/Fig2_expression_patterns.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3199,
+      "height": 2827,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/Fig3_leaf_comparison.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3575,
+      "height": 5560,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/Fig4_SNP_selection_ASE.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3240,
+      "height": 2850,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/Fig5_candidate_allele_fractions.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3450,
+      "height": 3119,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/Fig6_qPCR_validation.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3590,
+      "height": 3535,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/supplementary/FigS1_cumulative_harvest.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3484,
+      "height": 1583,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/supplementary/FigS2_core_ASE_shared_effects.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3560,
+      "height": 1691,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/supplementary/FigS3_model_calibration.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3547,
+      "height": 1802,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/supplementary/FigS5_product_decomposition.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3118,
+      "height": 2415,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/supplementary/FigS6_fruit_stage_enrichment.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 3387,
+      "height": 1927,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/supplementary/FigS4_qPCR_atlas_p1.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 4200,
+      "height": 5627,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/supplementary/FigS4_qPCR_atlas_p2.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 4200,
+      "height": 5627,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/output/supplementary/FigS4_qPCR_atlas_p3.png",
+      "pixel_identical_to_delivered_figure": true,
+      "width": 4200,
+      "height": 5627,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  ],
+  "atlas_pages": [
+    {
+      "page": 1,
+      "raster_identical_to_delivered_page": true,
+      "dpi": 600
+    },
+    {
+      "page": 2,
+      "raster_identical_to_delivered_page": true,
+      "dpi": 600
+    },
+    {
+      "page": 3,
+      "raster_identical_to_delivered_page": true,
+      "dpi": 600
+    }
+  ],
+  "tables": [
+    {
+      "file": "tables/output/S1.xlsx",
+      "matches_independently_verified_table_package_except_timestamps": true,
+      "package_members": 10,
+      "sha256": "d470fc28601e507bba3b6486106b1b572af1925d28f12ba25329fb14526ee955"
+    },
+    {
+      "file": "tables/output/S2.xlsx",
+      "matches_independently_verified_table_package_except_timestamps": true,
+      "package_members": 17,
+      "sha256": "11fb6d8f7c5d452ad0a5e0ac7b2f58a4ea7a7c646d0c5ebe1d44bf87fcdd785f"
+    },
+    {
+      "file": "tables/output/S3.xlsx",
+      "matches_independently_verified_table_package_except_timestamps": true,
+      "package_members": 15,
+      "sha256": "a21dd3a3b6a3494b3749a51b530db9644efd5ec5b8e3beafeccf63e8f851bea6"
+    },
+    {
+      "file": "tables/output/S4.xlsx",
+      "matches_independently_verified_table_package_except_timestamps": true,
+      "package_members": 12,
+      "sha256": "5899034914fef2c29c44ade73450c7c1089a38afd7d37706f67e2c6c8721533d"
+    },
+    {
+      "file": "tables/output/S5.xlsx",
+      "matches_independently_verified_table_package_except_timestamps": true,
+      "package_members": 11,
+      "sha256": "1b5b7008234a4374d99ef05f66ddba60ac01b4b8bf2326135abb9414880728b7"
+    },
+    {
+      "file": "tables/output/S6.xlsx",
+      "matches_independently_verified_table_package_except_timestamps": true,
+      "package_members": 14,
+      "sha256": "b4720e7f429eb49508a7d5f800426d3fa8617c81625e0d2dbb4afe6de50db062"
+    },
+    {
+      "file": "tables/output/S7.xlsx",
+      "matches_independently_verified_table_package_except_timestamps": true,
+      "package_members": 11,
+      "sha256": "2c4391da1491352b09bb964c9b25492749dded52ab163382504b7daeec7f6558"
+    },
+    {
+      "file": "tables/output/S8.xlsx",
+      "matches_independently_verified_table_package_except_timestamps": true,
+      "package_members": 14,
+      "sha256": "e7f00c8cf3707001a0a3a8f1baaff18d413d12b77351fc2c4d3a79650e3be578"
+    }
+  ],
+  "r_outputs": [
+    {
+      "file": "figures/output/phenotype/c22_A.csv",
+      "identical_to_direct_original_R_run": true,
+      "sha256": "89a993d02e2045b7c680f919e88a27c8254b57313be02b41b6177e7c4cdaac11"
+    },
+    {
+      "file": "figures/output/phenotype/c22_M.csv",
+      "identical_to_direct_original_R_run": true,
+      "sha256": "8152a8f8f7f5d6510a5647c9828528c9ea02cd6e86d1e6bfc6b3b284928a4ae7"
+    },
+    {
+      "file": "figures/output/phenotype/c22_H.csv",
+      "identical_to_direct_original_R_run": true,
+      "sha256": "5ac98b70f89ffd5edbbf4b60a5849d48372f8b96abeab82ca5be5d246f4337be"
+    },
+    {
+      "file": "figures/output/phenotype/c22_Mult.csv",
+      "identical_to_direct_original_R_run": true,
+      "sha256": "a09ac7feecd5ed54a9a375672f6f286177122182347f2aaec9b3d97646ea6010"
+    }
+  ],
+  "passed": true
+}

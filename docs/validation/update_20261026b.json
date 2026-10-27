@@ -1,0 +1,202 @@
+{
+  "status": "passed",
+  "revision": "20261026b",
+  "completed_utc": "2026-10-26T16:59:41.666424+00:00",
+  "source_comparison": {
+    "archives": [
+      {
+        "archive_name": "GitHub仓库_20261026b.zip",
+        "bytes": 63441202,
+        "sha256": "8977a9766053248ae6df2b77d9f5a15a456c3d8637c8227d569aa33d6b5c9947",
+        "modified_utc": "2026-10-26T16:50:14.157275+00:00",
+        "top": [
+          "GitHub仓库"
+        ],
+        "entries": 151
+      },
+      {
+        "archive_name": "投稿文件_20261026b.zip",
+        "bytes": 38566181,
+        "sha256": "694a12f7c6d0db3f7a17a8365501a41d879569d692bb636618da1de36ef606b2",
+        "modified_utc": "2026-10-26T16:49:59.261046+00:00",
+        "top": [
+          "投稿文件_20261026"
+        ],
+        "entries": 116
+      }
+    ],
+    "code": {
+      "changed": [
+        "figures/scripts/fig3.py",
+        "figures/scripts/figS6.py",
+        "figures/scripts/figS_others.py",
+        "validation/full_build_check.json"
+      ],
+      "added": [],
+      "removed": [],
+      "identical_files": 126
+    },
+    "submission": {
+      "changed": [
+        "正文图/Fig3_leaf_comparison.pdf",
+        "正文图/Fig3_leaf_comparison.png",
+        "正文图/Fig3_leaf_comparison.svg",
+        "正文图/分面板/Fig3_A.pdf",
+        "正文图/分面板/Fig3_B.pdf",
+        "正文图/分面板/Fig3_C.pdf",
+        "附图/FigS2_core_ASE_shared_effects.pdf",
+        "附图/FigS2_core_ASE_shared_effects.png",
+        "附图/FigS2_core_ASE_shared_effects.svg",
+        "附图/FigS6_fruit_stage_enrichment.pdf",
+        "附图/FigS6_fruit_stage_enrichment.svg",
+        "附图/分面板/FigS2_A.pdf",
+        "附图/分面板/FigS2_B.pdf",
+        "黄瓜杂种优势_园艺学报修改稿_20261026.docx",
+        "黄瓜杂种优势_园艺学报修改稿_20261026.pdf",
+        "黄瓜杂种优势_附图_20261026.docx",
+        "黄瓜杂种优势_附图_20261026.pdf"
+      ],
+      "added": [],
+      "removed": [],
+      "identical_files": 93
+    }
+  },
+  "author_inputs_identical": 97,
+  "author_inputs_packaging_only_changes": [
+    "data/phenotype/block_observations.csv",
+    "results/S5/shared_informative_snps.vcf.gz",
+    "results/S5/support4_shared_informative_snps.vcf.gz"
+  ],
+  "upstream_code_and_inputs_unchanged": true,
+  "unchanged_added_source_files": 122,
+  "prior_statistical_validation_applies_by_unchanged_hashes": true,
+  "statistical_refits_this_update": false,
+  "figure6_panels": 6,
+  "atlas_pages": 3,
+  "atlas_gene_panels": 27,
+  "changed_scripts_rebuilt": [
+    "fig3",
+    "figS6",
+    "figS_others"
+  ],
+  "isolated_full_build_passed": true,
+  "table_cells": 114155,
+  "numeric_cells": 72094,
+  "boolean_cells": 859,
+  "richtext_cells": 649,
+  "text_cells_revised": 33,
+  "prior_postprocessing_idempotence_applies_by_unchanged_code_and_inputs": true,
+  "full_resolution_PNGs_pixel_identical": 14,
+  "PDFs_pixel_identical_at_72dpi": 12,
+  "vector_and_plotted_value_checks": {
+    "status": "passed",
+    "SVG_scope": "Exact canonical XML equality after removing metadata/comments and normalizing internal IDs/references; geometry, colors, text and embedded image bytes retained.",
+    "SVG_checks": [
+      {
+        "file": "Fig3_leaf_comparison.svg",
+        "normalized_XML_identical": true
+      },
+      {
+        "file": "FigS2_core_ASE_shared_effects.svg",
+        "normalized_XML_identical": true
+      },
+      {
+        "file": "FigS6_fruit_stage_enrichment.svg",
+        "normalized_XML_identical": true
+      }
+    ],
+    "changed_panel_PDF_checks": [
+      {
+        "file": "Fig3_A.pdf",
+        "pages": [
+          {
+            "page": 1,
+            "same_dimensions": true,
+            "pixel_identical": true,
+            "mean_absolute_channel_difference": 0.0
+          }
+        ],
+        "pixel_identical": true
+      },
+      {
+        "file": "Fig3_B.pdf",
+        "pages": [
+          {
+            "page": 1,
+            "same_dimensions": true,
+            "pixel_identical": true,
+            "mean_absolute_channel_difference": 0.0
+          }
+        ],
+        "pixel_identical": true
+      },
+      {
+        "file": "Fig3_C.pdf",
+        "pages": [
+          {
+            "page": 1,
+            "same_dimensions": true,
+            "pixel_identical": true,
+            "mean_absolute_channel_difference": 0.0
+          }
+        ],
+        "pixel_identical": true
+      },
+      {
+        "file": "FigS2_A.pdf",
+        "pages": [
+          {
+            "page": 1,
+            "same_dimensions": true,
+            "pixel_identical": true,
+            "mean_absolute_channel_difference": 0.0
+          }
+        ],
+        "pixel_identical": true
+      },
+      {
+        "file": "FigS2_B.pdf",
+        "pages": [
+          {
+            "page": 1,
+            "same_dimensions": true,
+            "pixel_identical": true,
+            "mean_absolute_channel_difference": 0.0
+          }
+        ],
+        "pixel_identical": true
+      }
+    ],
+    "plotted_values": [
+      {
+        "file": "Fig3B_values.tsv",
+        "rows": 54,
+        "exactly_unchanged": true
+      },
+      {
+        "file": "Fig3C_values.tsv",
+        "rows": 138,
+        "exactly_unchanged": true
+      },
+      {
+        "file": "supplementary/FigS6_values.tsv",
+        "rows": 24,
+        "exactly_unchanged": true
+      }
+    ],
+    "figure3C_absolute_max_effect": 4.33304264699438,
+    "figure3C_color_range": [
+      -4.5,
+      4.5
+    ],
+    "figure3C_values_clipped": 0,
+    "figure3B_max_minus_log10_q": 13.113784226648649,
+    "figure3B_upper_color_limit": 14
+  },
+  "figure_environment": {
+    "python": "3.12.12",
+    "R": "4.3.1",
+    "direct_pins": "requirements-figures.txt"
+  },
+  "remote_push_performed": false
+}

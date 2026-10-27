@@ -1,0 +1,7 @@
+hybrid	paternal_parent	comparison	tested	significant_interactions	positive	negative
+"MD"	"D"	"fruit_6d_vs_fruit_3d"	18140	22	4	18
+"MD"	"D"	"fruit_9d_vs_fruit_3d"	18499	72	16	56
+"MD"	"D"	"fruit_9d_vs_fruit_6d"	18499	103	51	52
+"MS"	"S"	"fruit_6d_vs_fruit_3d"	18488	11	6	5
+"MS"	"S"	"fruit_9d_vs_fruit_3d"	18488	247	88	159
+"MS"	"S"	"fruit_9d_vs_fruit_6d"	18488	372	134	238

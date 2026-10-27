@@ -1,0 +1,10 @@
+category	genes
+MD_only_called	1492
+MS_only_called	586
+both_same_direction	256
+both_opposite_direction	59
+MD_called_total	1807
+MS_called_total	901
+intersection	315
+union	2393
+jointly_tested_background	16938

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "revision": "20261026b",
+  "command": "bash run_all.sh",
+  "source": "fresh extracted ZIP outside the project",
+  "table_comparison": "passed",
+  "full_resolution_PNG_comparison": "14 pixel-identical",
+  "PDF_comparison": "12 pixel-identical at 72 dpi"
+}

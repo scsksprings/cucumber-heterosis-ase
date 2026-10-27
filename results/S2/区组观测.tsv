@@ -1,0 +1,16 @@
+block	genotype	plant_count	total_fruit_count	total_yield_kg	yield_g_per_plant	fruits_per_plant	fruit_weight_g	source_row	observation_unit	independence_status
+G1	D	49	246	47.76	974.6938775510204	5.020408163265306	194.14634146341464	2	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G1	MD	50	260	57.06	1141.2	5.2	219.46153846153845	3	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G1	C	52	184	47.79	919.0384615384615	3.5384615384615383	259.7282608695652	4	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G1	MS	50	374	74.28	1485.6	7.48	198.6096256684492	5	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G1	S	47	638	57.46	1222.5531914893618	13.574468085106384	90.0626959247649	6	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G2	D	48	241	47.19	983.125	5.020833333333333	195.8091286307054	7	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G2	MD	51	242	53.32	1045.4901960784314	4.745098039215686	220.3305785123967	8	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G2	C	49	180	46.7	953.0612244897959	3.673469387755102	259.44444444444446	9	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G2	MS	50	364	76.47	1529.4	7.28	210.08241758241758	10	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G2	S	48	628	56.44	1175.8333333333333	13.083333333333334	89.87261146496816	11	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G3	D	47	254	48.97	1041.9148936170213	5.404255319148936	192.79527559055117	12	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G3	MD	50	246	54.14	1082.8	4.92	220.08130081300814	13	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G3	C	49	182	47.2	963.265306122449	3.7142857142857144	259.34065934065933	14	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G3	MS	49	359	75.67	1544.2857142857142	7.326530612244898	210.7799442896936	15	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21
+G3	S	48	615	55.63	1158.9583333333333	12.8125	90.45528455284553	16	block_by_genotype_aggregate	RCBD_analysis_author_authorized_2026-10-21

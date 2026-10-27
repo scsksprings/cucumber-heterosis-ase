@@ -1,0 +1,18 @@
+{
+  "Snakefile": {
+    "exit_code": 0,
+    "rules": 9
+  },
+  "expression.smk": {
+    "exit_code": 0,
+    "rules": 3
+  },
+  "variants.smk": {
+    "exit_code": 0,
+    "rules": 14
+  },
+  "wasp_ase.smk": {
+    "exit_code": 0,
+    "rules": 20
+  }
+}

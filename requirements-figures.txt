@@ -1,0 +1,10 @@
+# Exact versions used to build the submitted figures and tables (see validation/build_environment.json).
+# Other versions run, but text layout may differ by a few pixels.
+matplotlib==3.10.8
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+pillow==12.3.0
+openpyxl==3.1.5
+lxml==6.1.1        # lossless XLSX XML typography postprocessing
+fonttools==4.61.1  # only needed for figures/fonts/make_fonts.py

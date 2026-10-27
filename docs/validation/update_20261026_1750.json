@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "revision": "2026-10-26 09:50 UTC (17:50 Asia/Shanghai)",
+  "completed_utc": "2026-10-26T10:11:01.396821+00:00",
+  "author_inputs_identical": 97,
+  "author_inputs_packaging_only_changes": [
+    "data/phenotype/block_observations.csv",
+    "results/S5/shared_informative_snps.vcf.gz",
+    "results/S5/support4_shared_informative_snps.vcf.gz"
+  ],
+  "upstream_code_and_inputs_unchanged": true,
+  "ASE_regression_tests_passed": 9,
+  "table_cells": 114155,
+  "numeric_cells": 72094,
+  "boolean_cells": 859,
+  "richtext_cells": 649,
+  "text_cells_revised": 33,
+  "richtext_rules_applied": 649,
+  "postprocessing_byte_idempotent": true,
+  "isolated_full_build_passed": true,
+  "all_compared_PDFs_pixel_identical": true,
+  "figure_environment": {
+    "python": "3.12.12",
+    "R": "4.3.1",
+    "direct_pins": "requirements-figures.txt"
+  },
+  "remote_push_performed": false
+}

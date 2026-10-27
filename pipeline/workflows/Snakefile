@@ -1,0 +1,154 @@
+from pathlib import Path
+import pandas as pd
+
+configfile: "pipeline/config.yaml"
+
+ROOT = Path(config["project_root"])
+OUT = Path(config["output_root"])
+REF = config["reference_fasta"]
+GFF = config["reference_gff3"]
+MANIFEST = pd.read_csv(config["manifest"], sep="\t").set_index("sample_id")
+SAMPLES = MANIFEST.index.tolist()
+PARENT_SAMPLES = MANIFEST[MANIFEST["genotype"].isin(["C", "D", "S"])].index.tolist()
+F1_SAMPLES = MANIFEST[MANIFEST["genotype"].isin(["MD", "MS"])].index.tolist()
+
+
+rule all:
+    input:
+        OUT / "reference/star_index/SA",
+        OUT / "qc/multiqc/multiqc_report.html",
+        expand(str(OUT / "alignment/{sample}/{sample}.Aligned.sortedByCoord.out.bam.bai"), sample=SAMPLES),
+        expand(str(OUT / "alignment/{sample}/{sample}.ReadsPerGene.out.tab"), sample=SAMPLES)
+
+
+rule parents_all:
+    input:
+        expand(str(OUT / "alignment/{sample}/{sample}.Aligned.sortedByCoord.out.bam.bai"), sample=PARENT_SAMPLES),
+        expand(str(OUT / "alignment/{sample}/{sample}.ReadsPerGene.out.tab"), sample=PARENT_SAMPLES)
+
+
+rule f1_all:
+    input:
+        expand(str(OUT / "alignment/{sample}/{sample}.Aligned.sortedByCoord.out.bam.bai"), sample=F1_SAMPLES),
+        expand(str(OUT / "alignment/{sample}/{sample}.ReadsPerGene.out.tab"), sample=F1_SAMPLES)
+
+
+rule reference_gtf:
+    input:
+        GFF
+    output:
+        OUT / "reference/ChineseLong_gene_v3.gtf"
+    log:
+        OUT / "logs/reference/gffread.log"
+    shell:
+        "mkdir -p $(dirname {output}) $(dirname {log}) && "
+        "gffread {input} -T -o {output} 2> {log}"
+
+
+rule star_index:
+    input:
+        fasta=REF,
+        gtf=rules.reference_gtf.output
+    output:
+        OUT / "reference/star_index/SA"
+    threads:
+        config["threads"]["star_index"]
+    params:
+        outdir=OUT / "reference/star_index",
+        overhang=config["star"]["sjdb_overhang"],
+        sa_index=config["star"]["genome_sa_index_nbases"]
+    log:
+        OUT / "logs/reference/star_index.log"
+    shell:
+        "mkdir -p {params.outdir} $(dirname {log}) && "
+        "STAR --runMode genomeGenerate --runThreadN {threads} "
+        "--genomeDir {params.outdir} --genomeFastaFiles {input.fasta} "
+        "--sjdbGTFfile {input.gtf} --sjdbOverhang {params.overhang} "
+        "--genomeSAindexNbases {params.sa_index} > {log} 2>&1"
+
+
+rule fastqc:
+    input:
+        r1=lambda w: str(ROOT / MANIFEST.loc[w.sample, "read1"]),
+        r2=lambda w: str(ROOT / MANIFEST.loc[w.sample, "read2"])
+    output:
+        html1=OUT / "qc/fastqc/{sample}_R1_fastqc.html",
+        zip1=OUT / "qc/fastqc/{sample}_R1_fastqc.zip",
+        html2=OUT / "qc/fastqc/{sample}_R2_fastqc.html",
+        zip2=OUT / "qc/fastqc/{sample}_R2_fastqc.zip"
+    threads:
+        config["threads"]["fastqc"]
+    params:
+        outdir=OUT / "qc/fastqc"
+    log:
+        OUT / "logs/fastqc/{sample}.log"
+    shell:
+        "mkdir -p {params.outdir} $(dirname {log}) && "
+        "fastqc --threads {threads} --outdir {params.outdir} "
+        "--extract -f fastq {input.r1} {input.r2} > {log} 2>&1 && "
+        "mv {params.outdir}/$(basename {input.r1} .fq.gz)_fastqc.html {output.html1} && "
+        "mv {params.outdir}/$(basename {input.r1} .fq.gz)_fastqc.zip {output.zip1} && "
+        "mv {params.outdir}/$(basename {input.r2} .fq.gz)_fastqc.html {output.html2} && "
+        "mv {params.outdir}/$(basename {input.r2} .fq.gz)_fastqc.zip {output.zip2}"
+
+
+rule multiqc:
+    input:
+        expand(str(OUT / "qc/fastqc/{sample}_R1_fastqc.zip"), sample=SAMPLES),
+        expand(str(OUT / "qc/fastqc/{sample}_R2_fastqc.zip"), sample=SAMPLES)
+    output:
+        OUT / "qc/multiqc/multiqc_report.html"
+    params:
+        indir=OUT / "qc/fastqc",
+        outdir=OUT / "qc/multiqc"
+    log:
+        OUT / "logs/multiqc.log"
+    shell:
+        "mkdir -p {params.outdir} $(dirname {log}) && "
+        "multiqc --force --outdir {params.outdir} {params.indir} > {log} 2>&1"
+
+
+rule star_align:
+    input:
+        index=rules.star_index.output,
+        r1=lambda w: str(ROOT / MANIFEST.loc[w.sample, "read1"]),
+        r2=lambda w: str(ROOT / MANIFEST.loc[w.sample, "read2"])
+    output:
+        bam=OUT / "alignment/{sample}/{sample}.Aligned.sortedByCoord.out.bam",
+        counts=OUT / "alignment/{sample}/{sample}.ReadsPerGene.out.tab",
+        logfinal=OUT / "alignment/{sample}/{sample}.Log.final.out"
+    threads:
+        config["threads"]["star_align"]
+    params:
+        genome=OUT / "reference/star_index",
+        prefix=lambda w: str(OUT / "alignment" / w.sample / f"{w.sample}."),
+        rg=lambda w: f"ID:{w.sample} SM:{w.sample} PL:ILLUMINA LB:{w.sample}",
+        multimap=config["star"]["out_filter_multimap_nmax"],
+        mismatch=config["star"]["out_filter_mismatch_nover_lmax"],
+        intron_min=config["star"]["align_intron_min"],
+        intron_max=config["star"]["align_intron_max"],
+        mate_gap=config["star"]["align_mates_gap_max"]
+    log:
+        OUT / "logs/alignment/{sample}.log"
+    shell:
+        "mkdir -p $(dirname {output.bam}) $(dirname {log}) && "
+        "STAR --runThreadN {threads} --genomeDir {params.genome} "
+        "--readFilesIn {input.r1} {input.r2} --readFilesCommand zcat "
+        "--outFileNamePrefix {params.prefix} --outSAMtype BAM SortedByCoordinate "
+        "--outSAMattributes NH HI AS nM MD XS --quantMode GeneCounts "
+        "--outSAMattrRGline {params.rg} "
+        "--outFilterMultimapNmax {params.multimap} "
+        "--outFilterMismatchNoverLmax {params.mismatch} "
+        "--alignIntronMin {params.intron_min} --alignIntronMax {params.intron_max} "
+        "--alignMatesGapMax {params.mate_gap} > {log} 2>&1"
+
+
+rule bam_index:
+    input:
+        OUT / "alignment/{sample}/{sample}.Aligned.sortedByCoord.out.bam"
+    output:
+        OUT / "alignment/{sample}/{sample}.Aligned.sortedByCoord.out.bam.bai"
+    threads: 2
+    shell:
+        "samtools quickcheck -v {input} && "
+        "samtools index -@ {threads} {input} {output}"
